@@ -1,0 +1,5 @@
+Åpne opp word-filen. Her kan man fjerne den svarte boksen hvor det står "REDACTED" på. Her finner man nøkkelen. Bildet forteller oss at det er brukt AES-CTR kryptering, i tillegg til at nøkkelen er sikret med ROT-13. Helt på bunnen ser vi også IVen. Vi kan også finne ut at det er blitt brukt AES-192, da lengden på nøkkelen er 48. IVen må også være i HEX-format. Setter vi dette sammen, kan vi lage den følgende kommandoen for å dekryptere filen:
+
+openssl enc -aes-192-ctr -d -in huskeliste.txt.enc -out decrypted_file -K dda2846b010a6185b5e76aca4144069f88dc7a6ba49bf128 -iv 4867746e617466497278676265313233
+
+Svar: KRIPOS{Husk å se etter spor i snøen!}

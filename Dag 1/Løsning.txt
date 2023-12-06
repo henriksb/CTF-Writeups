@@ -1,0 +1,3 @@
+Gammel mobiltastatur. Første tallet er hvilket tall, og andre tallet er hvor mange ganger man skal trykke. Dette gjør at man får en bokstav. Gjør man dette på en gammel mobil eller en nettside får man flagget. https://www.dcode.fr/multitap-abc-cipher
+
+Svar: PST{SYSTEM INFISERT GRUNKER INCOMING} 
