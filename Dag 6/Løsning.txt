@@ -1,0 +1,3 @@
+Det "usynlige" tegnet "\u200d" er plassert foran bokstaver. Du må samle alle bokstavene som er plassert ved tegnet for å finne løsningen. Man kan se det usynlige tegnet på nettsiden ved å inspisere element eller ved å kopiere teksten til en mer avansert IDE (vscode).
+
+PST{PepperkakerErMotbydelige}
