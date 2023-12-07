@@ -1,11 +1,6 @@
 def explode(input, antall=24):
     størrelse = len(input) // antall
-    fragmenter = []
-    
-    for i in range(0, len(input), størrelse):
-        fragment = input[i:i+størrelse]
-        fragmenter.append(fragment)
-
+    fragmenter = [input[i:i+størrelse] for i in range(0, len(input), størrelse)]
     return fragmenter
 
 with open("pinneved.txt", "r") as f:
@@ -19,11 +14,6 @@ steg_2 = ["","","","","","","","","","","","","","","","","","","","","","","","
 for i, otp_number in enumerate(reversed(otp)):
     steg_2[otp_number] = steg_1[i]
 
-steg_3 = []
-for fragment in steg_2:
-    new_fragment = ''
-    for c in fragment:
-        new_fragment += chr(ord(c) - 2)
-    steg_3.append(new_fragment)
+steg_3 = [''.join(chr(ord(c) - 2) for c in fragment) for fragment in steg_2]
     
 print("".join(steg_3))
