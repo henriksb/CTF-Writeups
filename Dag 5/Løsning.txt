@@ -1,0 +1,46 @@
+Brukte https://overpass-turbo.eu/ for første gang med det følgende skriptet:
+
+[out:json];
+{{geocodeArea:Norway}}->.no;
+(
+  // Finn sjømatbutikker
+  node(area.no)["shop"="seafood"];
+  way(area.no)["shop"="seafood"];
+  relation(area.no)["shop"="seafood"];
+  
+  node(area.no)["amenity"="fountain"];
+  way(area.no)["amenity"="fountain"];
+  relation(area.no)["amenity"="fountain"];
+  
+  node(area.no)["amenity"="library"];
+  way(area.no)["amenity"="library"];
+  relation(area.no)["amenity"="library"];
+  
+  // Finn bibliotek
+  //node(area.no)["amenity"="funeral_hall"](around.sfood:50);
+  //way(area.no)["amenity"="funeral_hall"];
+  //relation(area.no)["amenity"="funeral_hall"];
+  
+);
+out center;
+
+{{style:
+  node[amenity=fountain],
+  way[amenity=fountain],
+  relation[amenity=fountain]
+{ color:blue; fill-color:blue; }
+
+  node[amenity=library],
+  way[amenity=library],
+  relation[amenity=library]
+{ color:blue; fill-color:green; }
+
+  node[shop=seafood],
+  way[shop=seafood],
+  relation[shop=seafood]
+{ color:blue; fill-color:red; }
+}}
+
+Endret fargen på de ulike fasilitetene og letet etter en rød, blå og grønn prikk som var nærme på kartet.
+
+Svar: PST{Frogn Bibliotek}
