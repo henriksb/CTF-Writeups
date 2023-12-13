@@ -1,0 +1,3 @@
+QR Kode: Fikset med Gimp. Scannet og fikk: "The State Buildings"
+
+Svar: KRIPOS{Perth}
