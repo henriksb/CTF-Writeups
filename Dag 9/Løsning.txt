@@ -1,0 +1,5 @@
+https://shademap.app/@52.09262,4.28242,17.71127z,1700741864639t,0b,0p,0m,qNyBDaHVyY2hpbGxwbGVpbg==!52.09326!4.2821
+
+Åpnet skyggekart og matchet skyggene på datoen nevnt i oppgaven.
+
+Svar: Kripos{13:20}
