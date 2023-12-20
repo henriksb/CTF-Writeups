@@ -1,3 +1,5 @@
 "code" fra volume 4 og "nissetekst" og "nissekodegenerator.py" fra volume 3. Disse ble funnet med Autopsy.
 
 Bruk "code" filen for å dekryptere nisseteksten.
+
+PST{TheGrinchWouldHateThis}
