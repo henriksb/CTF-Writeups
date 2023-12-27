@@ -1,0 +1,3 @@
+Alle 1000 filer inneholder ett dokument, men alle kopiene er angrepet av bit-råte. Vi fjerner først bokstaver som ikke finnes i det gammel-nordpolarske språket ({}#$[]§¤@). Deretter finner vi tegn som gjentar seg på alle posisjoner i backupene (hvis første bokstav i backupene er "N" 100 ganger og "B" 50 ganger, så velger vi "N" som førstebokstav). Vi gjør dette for hele lengden av backupene og legger i sammen bokstaver som gjentar seg mest. Til slutt legger alle tegnene i sammen og får dokumentet.
+
+Svar: PST{e32ba07d1254bafd1683b109c0fd6d6c}
