@@ -1,0 +1,4 @@
+Analyserte bildet på https://www.aperisolve.com/.
+Det blå bildet nr. 4 viser teksten "e24f52497bcf4c332f1283ec925f77a1". Dette blir brukt til å dekryptere filen.
+
+Svar: PST{alternativ_pengestrøm}
