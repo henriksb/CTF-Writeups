@@ -76,6 +76,6 @@ https://www.dcode.fr/book-cipher
 
 For å få tak i bøkene brukte jeg https://www.nb.no/, hvor man kan låne alle bøkene man trenger.
 
-Som du kan se ovenfor, begynte jeg å manuelt finne alle bokstavene som matchet tallene. Da jeg kom til linje 16 merket jeg at bok 4 (Om den yngre Jernalder i Norge : 1. Afdeling) inneholdt "PSTKRØLLPARENTES". Jeg fortsatte da å kun bygge på den frem til "bokstavjakt" var funnet. Da antok jeg at de siste tallene var "krøllparentes" og leverte inn svaret.
+Som du kan se ovenfor, begynte jeg å manuelt finne alle bokstavene som matchet tallene. Da jeg kom til linje 16 merket jeg at bok 4 (Om den yngre Jernalder i Norge : 1. Afdeling) inneholdt noe som lignet på "PSTKRØLLPARENTES". Jeg fortsatte da å kun bygge på den frem til "bokstavjakt" var funnet. Da antok jeg at de siste tallene var "krøllparentes" og leverte inn svaret.
 
 Svar: PST{bokstavjakt}
