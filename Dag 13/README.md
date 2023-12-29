@@ -4,4 +4,4 @@ Svar meg med KRIPOS{navn på by}.
 
 - Mellomleder
 
-![alt text]([http://url/to/img.png](https://raw.githubusercontent.com/henriksb/CTF-NPST-2023/main/Dag%2013/bilde.png?token=GHSAT0AAAAAACMC3XIXX2DZBJY3LVEHREOEZMO6HUQ)https://raw.githubusercontent.com/henriksb/CTF-NPST-2023/main/Dag%2013/bilde.png?token=GHSAT0AAAAAACMC3XIXX2DZBJY3LVEHREOEZMO6HUQ)
+![alt text](https://raw.githubusercontent.com/henriksb/CTF-NPST-2023/main/Dag%2013/bilde.png?token=GHSAT0AAAAAACMC3XIWMDOKVVD3NJXTI4GOZMO6IDA)
