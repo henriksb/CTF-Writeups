@@ -30,8 +30,8 @@ Mine løsninger på julenøttene til NPST.
 
 Oppgaver: 16/24
 
-Egg:    : 0/X
+Egg: 0/X
 
-Poeng   : 160
+Poeng: 160
 
-Plass   : 100/1291
+Plass: 100/1291
