@@ -10,7 +10,7 @@ Over natten har det vært store utfordringer knyttet til en av maskinene i verks
 
 - Mellomleder
 
-![alt text](https://raw.githubusercontent.com/henriksb/CTF-NPST-2023/main/Dag%202/oedelagte_leker_fix.png)
+![alt text](https://raw.githubusercontent.com/henriksb/CTF-NPST-2023/main/Dag%202/oedelagte_leker_fix.png?token=GHSAT0AAAAAACMC3XIWQLJDF6UZH7I44NKYZMO7FOA)
 
 ## Løsning
 
