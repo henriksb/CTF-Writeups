@@ -1,8 +1,9 @@
 # CTF-NPST-2023
 Mine løsninger på julenøttene til NPST.
 
-| Dag 1  	| ✅ 	| 10 	|
+| Dag     |---	|Poeng|
 |--------	|---	|----	|
+| Dag 1  	| ✅ 	| 10 	|
 | Dag 2  	| ✅ 	| 10 	|
 | Dag 3  	| ✅ 	| 10 	|
 | Dag 4  	| ✅ 	| 10 	|
@@ -28,6 +29,9 @@ Mine løsninger på julenøttene til NPST.
 | Dag 24 	| ❌ 	| 0  	|
 
 Oppgaver: 16/24
+
 Egg:    : 0/X
+
 Poeng   : 160
+
 Plass   : 100/1291
