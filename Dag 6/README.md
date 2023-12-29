@@ -44,6 +44,6 @@ PE‍PPERKAKER {
 }
 ```
 ## Løsning
-Det 'usynlige' tegnet, representert som '\u200d', er plassert foran visse bokstaver. For å løse oppgaven, må du identifisere og samle sammen alle bokstavene som er fulgt av dette usynlige tegnet. Dette tegnet kan bli synliggjort ved å bruke 'inspiser element'-funksjonen på nettsiden, eller ved å kopiere teksten inn i en mer avansert tekstredigerer som Visual Studio Code (VSCode). Dette vil hjelpe deg med å se og isolere de relevante bokstavene for å finne løsningen.
+Det "usynlige" tegnet, representert som "\u200d", er plassert foran visse bokstaver. For å løse oppgaven, må du identifisere og samle sammen alle bokstavene som er fulgt av dette usynlige tegnet. Dette tegnet kan bli synliggjort ved å bruke "inspiser element"-funksjonen på nettsiden, eller ved å kopiere teksten inn i en mer avansert tekstredigerer som Visual Studio Code (VSCode). Dette vil hjelpe deg med å se og isolere de relevante bokstavene for å finne løsningen.
 
 PST{PepperkakerErMotbydelige}
