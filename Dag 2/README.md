@@ -18,8 +18,8 @@ Løs rubiks kuben og les bokstavene.
 
 ```
 RØD: 	R-B-W
-	    G-O-Y
-	    P-S-T
+	G-O-Y
+	P-S-T
 
 HVIT:	_-D-E
 	    N-N-E
