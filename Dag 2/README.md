@@ -22,24 +22,24 @@ RØD: 	R-B-W
 	P-S-T
 
 HVIT:	_-D-E
-	    N-N-E
-	    _-S-O
+	N-N-E
+	_-S-O
 
 BLÅ:	{-L-Ø
-	    S-T-E
-	    _-D-U
+	S-T-E
+	_-D-U
 	
 ORAN:	I-L-L
-	    _-E-L
-	    L-E-R
+	_-E-L
+	L-E-R
 
 GUL:	_-K-U
-	    B-E-?
-	    :-)-}
+	B-E-?
+	:-)-}
 
-GRØNN:M-_-P
-	    U-S-L
-	    E-S-P
+GRØNN:  M-_-P
+	U-S-L
+	E-S-P
 ```
 	
 Svar: PST{LØSTE_DU_DENNE_SOM_PUSLESPILL_ELLER_KUBE?:)}
