@@ -1,3 +1,0 @@
-"Sortering" er hintet. I filen er det rundt 1000 "null" tegn. Splitt teksten ved null-tegnet og sorter alle elementene etter lengde. Her finner man flagget som første bokstaven av linjene.
-
-Svar: PST{julenisseStreng0Alv}
