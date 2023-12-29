@@ -1,3 +1,7 @@
+# Mobil-detektiven
+
+## Oppgavetekst
+
 Her får du den første oppgaven!
 
 Under etterforskningen av hendelsen på jule-verkstedet har vi oppdaget noe rart. Et av meldingssystemene som sender varslinger til beredskapsvaktene for verkstedet har sendt en SMS til et ukjent nummer. Meldingen er dessverre helt uleselig for oss, så vi trenger dine mobildetektiv-egenskaper. Når du finner ut av det, send meg svar på formatet PST{ditt svar her}.
@@ -11,3 +15,9 @@ Under etterforskningen av hendelsen på jule-verkstedet har vi oppdaget noe rart
 ```
 
 - Tastefinger
+
+## Løsning
+Tradisjonelt mobiltastatur-cipher. Det første tallet indikerer hvilken tast som skal brukes, mens det andre tallet angir antall ganger tasten må trykkes for å generere en bestemt bokstav. Dette er hvordan tastatur på eldre mobiler fungerer.
+https://www.dcode.fr/multitap-abc-cipher
+
+Svar: PST{SYSTEM INFISERT GRUNKER INCOMING} 
