@@ -14,6 +14,6 @@ Svar meg med KRIPOS{navn på by}.
 
 ## Løsning
 
-QR Kode: Fikset med Gimp. Scannet og fikk: "The State Buildings". Googlet det og fant Perth.
+Fikset den ødelagte QR-koden med Gimp. Scannet og fikk: "The State Buildings". Googlet det og fant Perth.
 
 Svar: KRIPOS{Perth}
