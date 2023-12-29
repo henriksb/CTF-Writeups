@@ -1,3 +1,6 @@
+# KAKER-kontroll
+
+## Oppgavetekst
 I en standard KAKER-kontroll (Kontroll Av Kommuniké med Eksport-Restriksjoner) har det blitt tatt en kopi av dette dokumentet. Vi syns det er snodig at akkurat denne personen har hatt med seg dokumentet siden personen har hatt anti-jul-holdninger tidligere, og vi vil derfor at du tar en nærmere kikk for å se etter uhumskheter.
 
 - Tastefinger
@@ -40,3 +43,7 @@ PE‍PPERKAKER {
     ‍}
 }
 ```
+## Løsning
+Det 'usynlige' tegnet, representert som '\u200d', er plassert foran visse bokstaver. For å løse oppgaven, må du identifisere og samle sammen alle bokstavene som er fulgt av dette usynlige tegnet. Dette tegnet kan bli synliggjort ved å bruke 'inspiser element'-funksjonen på nettsiden, eller ved å kopiere teksten inn i en mer avansert tekstredigerer som Visual Studio Code (VSCode). Dette vil hjelpe deg med å se og isolere de relevante bokstavene for å finne løsningen.
+
+PST{PepperkakerErMotbydelige}
