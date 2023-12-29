@@ -1,3 +1,0 @@
-Kryptert med RSA. Løs ved å hive verdiene c, e, og n inn i https://www.dcode.fr/rsa-cipher
-
-NSM{af0dbd13cee45990593c182b213f978d}
