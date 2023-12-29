@@ -26,6 +26,7 @@ Mine løsninger på julenøttene til NPST.
 | Dag 22 | ✅ | 10  |
 | Dag 23 | ✅ | 10  |
 | Dag 24 | ❌ | 0   |
+
 ---------------------
 Oppgaver: 16/24
 Egg:    : 0/X
