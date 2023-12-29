@@ -3,7 +3,9 @@ Mine løsninger på julenøttene til NPST.
 
 |  Dag   |     |Poeng|
 | Dag 1  | ✅ | 10  |
+
 | Dag 2  | ✅ | 10  |
+
 | Dag 3  | ✅ | 10  |
 | Dag 4  | ✅ | 10  |
 | Dag 5  | ✅ | 10  |
