@@ -11,7 +11,7 @@ Når du finer ut av det så send meg MD5-sjekksummen til det gjenoppbyggede doku
 - Mellomleder
 
 ## Løsning
-Alle 1000 filer inneholder ett dokument, men alle kopiene er angrepet av bit-råte. Vi fjerner først bokstaver som ikke finnes i det gammel-nordpolarske språket ({}#$[]§¤@). Deretter finner vi tegn som gjentar seg på alle posisjoner i backupene (hvis første bokstav i backupene er "N" 100 ganger og "B" 50 ganger, så velger vi "N" som førstebokstav). Vi gjør dette for hele lengden av backupene og legger i sammen bokstaver som gjentar seg mest. Til slutt legger alle tegnene i sammen og får dokumentet.
+Alle 1000 filer inneholder ett dokument, men alle kopiene er angrepet av bit-råte. Vi fjerner først bokstaver som ikke finnes i det gammel-nordpolarske språket ```{}#$[]§¤@```. Deretter finner vi tegn som gjentar seg på alle posisjoner i backupene (hvis første bokstav i backupene er "N" 100 ganger og "B" 50 ganger, så velger vi "N" som førstebokstav). Vi gjør dette for hele lengden av backupene og legger i sammen bokstaver som gjentar seg mest. Til slutt legger alle tegnene i sammen og får dokumentet.
 
 Skriptet produserer følgende tekst:
 ```
