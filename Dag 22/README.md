@@ -17,7 +17,7 @@ Returner UUID til den modifiserte raden, f.eks. PST{6eab374e-735f-416e-bcc6-81b4
 ## Løsning
 Åpnet i DB Browser og sortere "quantity". Her så jeg en gjenstand med "quantity" på 0. Dette var visst flagget.
 ```
-| UUID				                         |      giftname      | quantity
+| UUID				       |      giftname      | quantity
 | 9da1b2a6-5a52-41ec-8bf0-32381e054db7 | Nano Jade Mindflex |    0
 ```
 
