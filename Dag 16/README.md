@@ -26,6 +26,22 @@ Bruk disse for å initiere kontakt ved eksfil etter vellykket operasjon, eller v
 - Agent "Solid Sankt": KODE_PLACEHOLDER_2
 - Agent "Jollyson Bål": KODE_PLACEHOLDER_3
 ```
-Shell skriptet ```/aksjon_2023/.git/hooks/pre-merge-commit``` inneholder flere base64 strenger som blir printet i konsollen om filen "feltagenter_kontaktmanual.md" finnes. Vi kan da manuelt dekode alle base64-strengene, eller kjøre skriptet. Hvis vi kjører skriptet vil kodene i "feltagenter_kontaktmanual.md" bli destruert. For å fikse dette må vi lese og forstå skriptet. For å hindre selv-destrueringen må vi skrive kommandoen ```export DISABLE_SELF_DESTRUCT=1```. Vi kan da kjøre skriptet, og "KODE_PLACEHOLDER" vil bli erstattet med flagget.
+Shell skriptet ```/aksjon_2023/.git/hooks/pre-merge-commit``` inneholder flere base64 strenger som blir printet i konsollen om filen "feltagenter_kontaktmanual.md" finnes. Vi kan da manuelt dekode alle base64-strengene, eller kjøre skriptet. Hvis vi kjører skriptet vil kodene i "feltagenter_kontaktmanual.md" bli destruert. For å fikse dette må vi lese og forstå skriptet. For å hindre selv-destrueringen må vi skrive kommandoen ```export DISABLE_SELF_DESTRUCT=1```. Vi kan da kjøre skriptet, og "KODE_PLACEHOLDER" vil bli erstattet med flagget. Den nye filen blir ersattet med:
+```
+Eksfil av feltagenter
+
+Våre deep-cover feltagenter har blitt instruert i å respondere på følgende koder.
+
+Bruk disse for å initiere kontakt ved eksfil etter vellykket operasjon, eller ved ekstraordinært behov ellers.
+
+## Koder
+
+- Agent "Julie Bånd": Unnskyld, vet du veien til biblioteket? <RESPONS>. Sa jeg biblioteket? Jeg mente fiskeforhandleren, kan du vagge bort med meg?
+- Agent "Solid Sankt": Ikke god jul.
+- Agent "Jollyson Bål": KRIPOS{Flagg i alle kriker og kroker}
+```
 
 Svar: KRIPOS{Flagg i alle kriker og kroker}
+
+## Egg?
+Om man skriver ```git commit``` får man et hint som sier "Har noen sett egget mitt? Jeg vet HELT sikkert at jeg la det inn i git, men klarer ikke finne det igjen noe sted...".
