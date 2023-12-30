@@ -17,3 +17,10 @@ Svar meg med KRIPOS{navn på by}.
 Fikset den ødelagte QR-koden med Gimp. Scannet og fikk: "The State Buildings". Googlet det og fant Perth.
 
 Svar: KRIPOS{Perth}
+
+## Egg?
+Ved bruk av https://www.aperisolve.com/ finner vi 3 bilder med noen tall.
+
+![alt text](superimposed.png)
+![alt text](blue.png)
+![alt text](green.png)
