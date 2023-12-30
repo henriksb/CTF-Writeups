@@ -9,7 +9,9 @@ Vi prøvde å spørre OSINT-alvene våre, men de var travelt opptatt med å saum
 
 Kan du ut fra meldingen finne ut hvor de skal møtes?
 
-```Ta bussen og gå av på holdeplassen rett ved begravelsesbyrået som ligger inntil en sjømatbutikk. Jeg vil stå klar ved fontenen noen titalls meter fra bussholdeplassen. Når du har kommet frem til fontenen, vil vi sammen gå til det nærliggende biblioteket som ligger under 50 meter fra fontenen og gjennomfører overføringen.```
+```
+Ta bussen og gå av på holdeplassen rett ved begravelsesbyrået som ligger inntil en sjømatbutikk. Jeg vil stå klar ved fontenen noen titalls meter fra bussholdeplassen. Når du har kommet frem til fontenen, vil vi sammen gå til det nærliggende biblioteket som ligger under 50 meter fra fontenen og gjennomfører overføringen.
+```
 
 Svar meg med navnet på møtestedet og på formen PST{BERGEN LUFTHAVN}
 
