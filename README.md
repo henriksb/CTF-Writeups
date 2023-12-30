@@ -34,4 +34,4 @@ Egg: 0/X
 
 Poeng: 170
 
-Plass: 100/1291
+Plass: 92/1291
