@@ -1,5 +1,5 @@
 # CTF-NPST-2023
-Mine løsninger på julenøttene til NPST.
+Mine løsninger på PST sin julekalender 2023.
 
 | Dag     |---	|Poeng|
 |--------	|---	|----	|
