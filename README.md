@@ -18,7 +18,7 @@ Mine løsninger på julenøttene til NPST.
 | Dag 13 	| ✅ 	| 10 	|
 | Dag 14 	| ✅ 	| 10 	|
 | Dag 15 	| ✅ 	| 10 	|
-| Dag 16 	| ❌ 	| 0  	|
+| Dag 16 	| ✅ 	| 10 	|
 | Dag 17 	| ❌ 	| 0  	|
 | Dag 18 	| ❌ 	| 0  	|
 | Dag 19 	| ✅ 	| 10 	|
@@ -28,10 +28,10 @@ Mine løsninger på julenøttene til NPST.
 | Dag 23 	| ✅ 	| 10 	|
 | Dag 24 	| ❌ 	| 0  	|
 
-Oppgaver: 16/24
+Oppgaver: 17/24
 
 Egg: 0/X
 
-Poeng: 160
+Poeng: 170
 
 Plass: 100/1291
