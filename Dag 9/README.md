@@ -10,6 +10,8 @@ Send meg svar på denne eposten som KRIPOS{tidspunkt}, f.eks. KRIPOS{23:35}, run
 
 - Mellomleder
 
+![alt text](bilde.png)
+
 ## Løsning
 https://shademap.app/@52.09262,4.28242,17.71127z,1700741864639t,0b,0p,0m,qNyBDaHVyY2hpbGxwbGVpbg==!52.09326!4.2821
 
