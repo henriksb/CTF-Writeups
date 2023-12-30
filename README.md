@@ -35,3 +35,5 @@ Egg: 0/X
 Poeng: 170
 
 Plass: 92/1291
+
+https://mklarz.github.io/npst2023-scoreboard/
