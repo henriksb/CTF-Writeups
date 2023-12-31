@@ -10,7 +10,7 @@ steg_1 = explode(pinneved)
 
 otp = [23, 2, 0, 5, 13, 16, 22, 7, 9, 4, 19, 21, 18, 10, 20, 11, 12, 14, 6, 1, 3, 8, 17, 15]
 
-steg_2 = ["","","","","","","","","","","","","","","","","","","","","","","",""]
+steg_2 = [""] * 24
 for i, otp_number in enumerate(reversed(otp)):
     steg_2[otp_number] = steg_1[i]
 
