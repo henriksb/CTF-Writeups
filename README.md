@@ -20,7 +20,7 @@ Mine løsninger på PST sin julekalender 2023.
 | Dag 15 	| ✅ 	| 10 	|
 | Dag 16 	| ✅ 	| 10 	|
 | Dag 17 	| ❌ 	| 0  	|
-| Dag 18 	| ❌ 	| 0  	|
+| Dag 18 	| ✅ 	| 10 	|
 | Dag 19 	| ✅ 	| 10 	|
 | Dag 20 	| ❌ 	| 0  	|
 | Dag 21 	| ❌ 	| 0  	|
@@ -28,12 +28,12 @@ Mine løsninger på PST sin julekalender 2023.
 | Dag 23 	| ✅ 	| 10 	|
 | Dag 24 	| ❌ 	| 0  	|
 
-Oppgaver: 17/24
+Oppgaver: 18/24
 
 Egg: 0/X
 
-Poeng: 170
+Poeng: 180
 
-Plass: 92/1291
+Plass: 85/1291
 
 https://mklarz.github.io/npst2023-scoreboard/
