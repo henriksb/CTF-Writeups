@@ -30,10 +30,10 @@ Mine løsninger på PST sin julekalender 2023.
 
 Oppgaver: 18/24
 
-Egg: 0/X
+Egg: 1/X
 
-Poeng: 180
+Poeng: 181
 
-Plass: 85/1291
+Plass: 83/1291
 
 https://mklarz.github.io/npst2023-scoreboard/
