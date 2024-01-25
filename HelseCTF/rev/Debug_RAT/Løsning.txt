@@ -1,8 +1,0 @@
-> LS CAT
-> flag part2: _Netbus_aNd_Back
-
-> strings debug_rat
-> Orifice???}
-
-Gjemte kommandoer:
-DEBUG
