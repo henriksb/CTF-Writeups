@@ -1,0 +1,3 @@
+int(not()) == 1, bruk dette til å lage tall høye nok til å matche ascii bokstaver. Bruk deretter "chr" til å gjøre det om til bokstaver.
+
+helsectf{lange_programmer_lever_lengst}

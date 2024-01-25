@@ -1,0 +1,3 @@
+Fjerne kyllingen, og flagget blir igjen.
+
+helsectf{gjemt_flagg}

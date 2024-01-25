@@ -1,0 +1,3 @@
+print(*open(repr(int())))
+
+helsectf{z3r0_p0inters_g1ven}
