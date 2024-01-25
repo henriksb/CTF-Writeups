@@ -1,0 +1,8 @@
+Hint1: flagget finnes i rockyou.txt
+Hint2: flagget har flere mellomrom.
+
+Lag et python script til å filtrere ut alt som ikke har mellomrom og knekk hashen med hashcat:
+hashcat -m 3200 -a 0 password.txt mellomrom.txt -o out --force
+
+
+helsectf{being so stupid becuz of cheer}
