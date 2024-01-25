@@ -1,3 +1,0 @@
-Gratis flagg på https://helsectf2024-2da207d37b091b1b4dff-remote.chals.io/
-
-helsectf{remote_flag_er_best,_ingen_protest!}
