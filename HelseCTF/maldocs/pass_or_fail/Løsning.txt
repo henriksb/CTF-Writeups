@@ -1,0 +1,3 @@
+Fant en batch interpreter, som deobfuskerer filen. Etter det kan man se ulike strenger som er base64 enkodet. I tillegg til dette finner man flere HEX verdier. Konverterer man HEX verdiene til bokstaver får man flagget.
+
+helsectf{this_2_shall_pass}
