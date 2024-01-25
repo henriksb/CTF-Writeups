@@ -1,0 +1,3 @@
+Kantdeteksjon ved bruk av fourier-transoformasjonen. Teksten blir synlig og delvis lesbar på cutoff 1-10.
+
+helsectf{pepperoni}
