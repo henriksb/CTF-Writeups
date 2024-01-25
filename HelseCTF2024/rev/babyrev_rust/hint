@@ -1,0 +1,27 @@
+objdump -s babyrev_rust
+
+Contents of section .h_i_n_t:
+ 0000 3f005200 45004700 47005500 42004500  ?.R.E.G.G.U.B.E.
+ 0010 44002000 6e006500 20006500 6b007500  D. .n.e. .e.k.u.
+ 0020 72006200 20006e00 61006b00 20006700  r.b. .n.a.k. .g.
+ 0030 65006a00 20006500 6a006b00 73006e00  e.j. .e.j.k.s.n.
+ 0040 61006b00 20003a00 6b006e00 69006800  a.k. .:.k.n.i.h.
+ 0050 74003a00 20003f00 3f002900 28006e00  t.:. .?.?.).(.n.
+ 0060 69006100 6d002000 65007300 72006500  i.a.m. .e.s.r.e.
+ 0070 76006500 72002000 e5002000 6e006e00  v.e.r. ... .n.n.
+ 0080 65002000 e5007000 20007400 65006700  e. ...p. .t.e.g.
+ 0090 67006100 6c006600 20006500 6e006e00  g.a.l.f. .e.n.n.
+ 00a0 69006600 2000e500 20006500 7400e500  i.f. ... .e.t...
+ 00b0 6d002000 65007200 65006c00 6b006e00  m. .e.r.e.l.k.n.
+ 00c0 65002000 6e006500 20006500 7200e600  e. .n.e. .e.r...
+ 00d0 76002000 74006500 64002000 6e006100  v. .t.e.d. .n.a.
+ 00e0 4b00                                 K.
+ 
+ REGGUBED ne ekurb nak gej ejksnak kniht ?? )( niam esrever nne p teggalf ennif et m erelkne ne er v ted naK
+ =
+ Kan det være en enklere måte finne å flagget på enn å reversere main?? Think kanskje jeg kan bruke en debugger
+ 
+
+Bzwrtonerunqqruhfxrguibeqnawrtoehxreragenpre
+=
+Om jeg bare hadde husket hvordan jeg bruker en tracer
