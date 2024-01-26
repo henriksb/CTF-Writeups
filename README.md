@@ -3,6 +3,8 @@
 ## NPST 2023
 Oppgaver: 18/24
 
+Egg: 1/X
+
 Plass: 83/1291
 
 ## HelseCTF
