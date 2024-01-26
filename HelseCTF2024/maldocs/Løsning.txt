@@ -1,0 +1,6 @@
+Åpnet programmet i Autopsy og hentet ut filene fra disken.
+
+Decompilet programmet crossbar.exe i Illspy og fant argumentene: giefKey
+Skriv dette inn i programmet og du får svaret.
+
+helsectf{if_it_qaks_like_a_bot_6ebd7e86fa5a82fb062800f9529fede402ab4b758453ee1456197754ca051145}
