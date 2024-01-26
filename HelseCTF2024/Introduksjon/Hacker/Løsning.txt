@@ -1,1 +1,3 @@
+Finn en assembly compiler på nett og kjør koden.
+
 helsectf{statsautorisert_hacker}
