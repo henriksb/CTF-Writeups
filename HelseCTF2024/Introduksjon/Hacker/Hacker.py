@@ -7,14 +7,7 @@ encrypted_data = [
 ]
 
 def decrypt(data):
-    decrypted_data = []
-    for i in range(len(data)):
-        byte = data[i]
-        byte = byte ^ (65 + 1) # XOR med 0x41 + 1
-        decrypted_data.append(byte)
-    return decrypted_data
+    return ''.join(chr(byte ^ 0x42) for byte in data)
 
-decrypted_data = decrypt(encrypted_data)
-
-decrypted_flag = ''.join(chr(byte) for byte in decrypted_data)
+decrypted_flag = decrypt(encrypted_data)
 print(decrypted_flag)
