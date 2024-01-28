@@ -5,11 +5,12 @@ Dette min writeup på årets CTF utfordring fra HelseCTF. Jeg har ikke alltid de
 Oppgaver løst: 38/41 \
 Plass: 13/XXX 
 
-## Introduksjon
+## Intro
 
 Denne delen går igjennom introduksjonsoppgavene. Disse oppgavene er ikke spesielt vanskelige, men fine for nybegynnere for å sette seg litt inn i hva en CTF går ut på.
 
-### 1. discord
+
+### 1. Discord
 ```
 CTF er en sosial sport! Kom og bli med på vår Discord server for å prate med andre deltakere: https://discord.gg/b3zS2QrrU9
 
@@ -22,7 +23,10 @@ Alle oppgavene i kategorien intro er gratis eller low-effort flagg.
 #### Løsning
 Bli med i Discord kanalen og hent flagget.
 
-**helsectf{men_det_er_jo_lenge_til_Påske!}**
+`helsectf{men_det_er_jo_lenge_til_Påske!}`
+
+<br>
+<br>
 
 ### 2. Kyberkriger
 ```
@@ -37,7 +41,10 @@ Skroll ned i Finn annonsen, så finner du noe rart:
 
  Dette er flagget kryptert med ROT-cipher. Finn en [nettside](https://www.dcode.fr/rot-cipher) eller lag et script for å rotere bokstavene.
 
-**helsectf{vi_har_eget_blueteam}**
+`helsectf{vi_har_eget_blueteam}`
+
+<br>
+<br>
 
 ### 3. Koder
 ```
@@ -51,7 +58,10 @@ Skroll ned i Finn annonsen igjen, her finner du noe lignende: *aGVsc2VjdGZ7a29ka
 
 Dette er veldig lett å se hva er, da det slutter med et likhetstegn. Finn en [base64 dekoder](https://www.base64decode.org/) og hent flagget.
 
-**helsectf{koding_er_g0y}**
+`helsectf{koding_er_g0y}`
+
+<br>
+<br>
 
 ### 4. Hacker
 ```
@@ -60,9 +70,7 @@ Lyst å hacke sykehus og kommuner? Liker du å grave til du treffer fjell? Har d
 https://www.finn.no/job/fulltime/ad.html?finnkode=336880016
 ```
 #### Løsning
-Som de to tidligere oppgavene, finner man problemet på Finn.no igjen. Denne gangen har de laget et assembly program som inneholder flagget. Her kan man kompilere programmet eller finne en [online tjeneste](https://onecompiler.com/assembly/422qyxzn2) som tillater oss å gjøre det. Kjører man koden får man flagget:
-
-**helsectf{statsautorisert_hacker}**
+Som de to tidligere oppgavene, finner man problemet på Finn.no igjen. Denne gangen har de laget et assembly program som inneholder flagget. Her kan man kompilere programmet eller finne en [online tjeneste](https://onecompiler.com/assembly/422qyxzn2) som tillater oss å gjøre det.
 
 ```assembly
 global _start
@@ -105,8 +113,14 @@ _start:
     xor ebx,ebx
     int 0x80 
 ```
+Kjører man koden får man flagget:
 
-### 5. remote
+`helsectf{statsautorisert_hacker}`
+
+<br>
+<br>
+
+### 5. Remote
 ```
 I løpet av CTFen er det flere oppgaver som er hostet på en remote server og det krever at du kobler til en "rå" TCP port som går over SSL.
 
@@ -122,9 +136,63 @@ Gratis flagg på https://helsectf2024-2da207d37b091b1b4dff-remote.chals.io/
 
 Koble til med "sc" programmet og hent flagget.
 
-**helsectf{remote_flag_er_best,_ingen_protest!}** 
+`helsectf{remote_flag_er_best,_ingen_protest!}`
 
+<br>
+<br>
 
+### 6. dcode.fr
+```
+Mattenerden Affinis Finé valgte sitt favoritt monoalfabetisk substitusjonschiffer som hen fant på nettsiden http://dcode.fr for å skjule et flagg.
+
+Tips! Når man møter på krypto-oppgaver med ukjent algoritme så finnes det online tjenester for å identifisere hvilket cipher det er gitt chifferteksten.
+
+Kan du med dette krypterte flagget finne tilbake til klarteksten? Den følger formatet helsectf{ ... } og den kan vi se i strukturen under.
+
+tizqisld{tllfq://www.nskni.dv/softiv-oniplodoiv____iv_iP_yKn_qLcVl_pCcV_Ucp_oEe3_bi7_tboZeiL_sT1dd3v_q0U_Iv_xvGEl!}
+```
+
+#### Løsning
+Som oppgaven sier, så bruker man nettsiden dcode.fr til å automatisk knekke flagget.
+
+`helsectf{https://www.dcode.fr/cipher-identifier____er_eN_gOd_sTaRt_nAaR_Man_iKk3_ve7_hviLkeT_cH1ff3r_s0M_Er_brUKt!}`
+
+<br>
+<br>
+
+### 7. Konvertere
+```python
+For å konvertere mellom store tall og strenger anbefales det å bruke pycryptodome i Python. Denne kan installeres med pip install pycryptodome.
+
+Vi bruker denne i f.eks. kryptooppgaver med RSA for å gå fra byte-strenger til tall for å gjøre RSA operasjoner, og tilbake. Dette er brukt i RSA oppgaven kontraktsignering.
+
+Jeg har skjult et flagg som et tall:
+
+>>> from Crypto.Util.number import long_to_bytes, bytes_to_long   
+>>> flag = bytes_to_long(b"helsectf{??? ... ???}")
+>>> print(flag)
+9999168102934914777774346849293018679871929920575661949
+
+For å konvertere tilbake til bytes kan du bruke print(long_to_bytes(<tall>))
+```
+#### Løsning
+Her får vi en ganske grei beskrivelse på hvordan man får flagget:
+
+```python
+from Crypto.Util.number import long_to_bytes, bytes_to_long   
+flag = long_to_bytes(b"9999168102934914777774346849293018679871929920575661949")
+print(flag)
+```
+Dette gir oss flagget:
+
+`helsectf{bytes_to_long}`
+
+<br>
+<br>
+<br>
+<br>
+
+## OSINT
 
 
 
