@@ -1,9 +1,9 @@
 ### Hacker
-```
+`
 Lyst å hacke sykehus og kommuner? Liker du å grave til du treffer fjell? Har du lyst å finne, teste og rapportere om svakheter som kan ha stor indirekte samfunnsmessig effekt? Vi i Helse- og KommuneCERT ønsker å styrke vårt red-team. Se om du tar vår utfordring:
 
 https://www.finn.no/job/fulltime/ad.html?finnkode=336880016
-```
+`
 #### Løsning
 Som de to tidligere oppgavene, finner man problemet på Finn.no igjen. Denne gangen har de laget et assembly program som inneholder flagget. Her kan man kompilere programmet eller finne en [online tjeneste](https://onecompiler.com/assembly/422qyxzn2) som tillater oss å gjøre det.
 
