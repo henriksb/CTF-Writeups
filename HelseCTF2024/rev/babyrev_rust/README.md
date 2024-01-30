@@ -1,9 +1,9 @@
 ### babyrev_rust
-```
+
 En babyrev er litt Rust(en) i programmering. Hen har programmet inn et flagg i kildekoden, kompilert det til en binærfil (se vedlagt fil) men har så greid å mistet kildekoden. Om hen bare hadde skrevet ned argumentet. Kan du finne flagget og levere det inn?
 
 Reven har noen vage minner om at det kan være et par hint i filen som kan hjelpe en ivrig REverser i å finne flagget.
-```
+
 
 #### Filer
 babyrev_rust (ELF-fil)
