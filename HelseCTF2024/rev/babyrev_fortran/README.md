@@ -1,22 +1,28 @@
-### babyrev_rust
+### babyrev_fortran
 
-En babyrev er litt Rust(en) i programmering. Hen har programmet inn et flagg i kildekoden, kompilert det til en binærfil (se vedlagt fil) men har så greid å mistet kildekoden. Om hen bare hadde skrevet ned argumentet. Kan du finne flagget og levere det inn?
+En babyrev husker gamle fortellinger fra sin bestefar som programmerte i et litt utdatert programmeringsspråk. Heldigvis kom det en senere revisjon på 90-tallet som er noe enklere å bruke.
 
-Reven har noen vage minner om at det kan være et par hint i filen som kan hjelpe en ivrig REverser i å finne flagget.
+Greier du å printet ut flagget i klartekst?
 
 
 #### Filer
-babyrev_rust (ELF-fil)
+babyrev_fortran (ELF-fil)
 
 #### Løsning
-For å løse denne ble pwndbg brukt. Etter litt graving i `main` fant jeg funksjonene: `lang_start` og `lang_start_internal`. Gikk inn i de og fortsatte til jeg fant ```}!gitkir_tvitaler_remir_tsur_ksar{ftcesleh'``` som blir reversert til:
+Kjør programmet, så får man teksten:
+```flag=gemredsf|k3oFe`r1E2n`e02j_qqoh`MNdR8d_j^Fpqts`n`80~```
 
-```helsectf{rask_rust_rimer_relativt_riktig!}```
+Her kan man fort se at deler av "helsectf" er korrekt. Se man nærmere på dette så finner man mønsteret +1,0,-1. Altså, bokstaven etter, samme bokstav, og bokstaven før. For å løse dette kan vi lage et script til å fikse bokstavene:
 
-Takk til [Aadlei](https://github.com/Aadlei) for hjelp med denne oppgaven.
+```python
+flagg = "gemredsf|k3oFe`r1E2n`e02j_qqoh`MNdR8d_j^Fpqts`n`80~"
 
-Man kan også finne to hint i filen:
+svar = ""
 
-1. Kan det være en enklere måte finne å flagget på enn å reversere main?? Think kanskje jeg kan bruke en debugger.
- 
-2. Om jeg bare hadde husket hvordan jeg bruker en tracer.
+for i, char in enumerate(flagg):
+    offset = (1, 0, -1)[i % 3] # Veksle offset med 1, 0 og -1
+    svar += chr(ord(char) + offset) # Gjør om til asciitall, legg til   offset og gjør om til bokstav.
+
+print(svar)
+>> helsectf{l3nGe_s1D3n_f01k_progaMMeR7e_i_Fortran_90}
+```
