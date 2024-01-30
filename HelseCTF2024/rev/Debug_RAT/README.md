@@ -1,5 +1,5 @@
 ### debug_rat
-```
+
 En god RAT går aldri av moten! Vi har deployet en test, men glemte å slå av feilsøkingsgrensesnittet og andre skjulte kommandoer.
 
 Kan du ta kontrollen på råtta og se om det er mulig å få ut flagget som ligger lagret på /flag.txt?
@@ -7,7 +7,7 @@ Kan du ta kontrollen på råtta og se om det er mulig å få ut flagget som ligg
 Oppdatering: Obs! Noen kan finne flagget på en måte som inneholder en feil - det har doble underscores '__'. Korrekt flagg er uten doble underscores.
 
 PS! Binarien er en fult fungerende Remote Access Trojan som gir Remote Code Execution. I god stil er derfor oppgavefilen pakket i en kryptert zip. (passord: infected)
-```
+
 
 #### Filer
 debug_rat.zip
