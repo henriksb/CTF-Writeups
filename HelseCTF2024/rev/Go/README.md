@@ -1,7 +1,7 @@
 ### StateOfGo
-```
+
 Mitt Go-program kompilerer fint, men viser ikke flagget? Jeg som trodde Go aldri kunne gjøre noe feil!? Se om det hjelper å overskrive en byte på vilkårlig offset.
-```
+
 #### Løsning
 Her får man kildekoden ved å koble til serveren som kjører koden.
 ```go
