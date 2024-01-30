@@ -1,6 +1,0 @@
-gemredsf|k3oFe`r1E2n`e02j_qqoh`MNdR8d_j^Fpqts`n`80~
-helsectf{l3nGe_s1D3n_f01k_progaMMeR7e_i_Fortran_90}
-
-Så med en gang at noen bokstaver var riktige i "helsectf". Så ganske raskt etter at disse bokstavene var -1 eller 0, eller +1 i alfabetet.
-
-+1 0 -1 ascii * lengde = mønster

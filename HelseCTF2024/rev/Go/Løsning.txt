@@ -1,6 +1,0 @@
-Bytt n := t(n) ut med n = t(n) for å ikke initialisere variabelen for hver iterasjon.
-
-Offset: 299 (kolon)
-Byte: 20 (mellomrom)
-
-helsectf{redeclaring_a_Go_variable_can_shadow_another!}
