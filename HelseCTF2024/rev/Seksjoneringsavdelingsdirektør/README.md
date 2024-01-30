@@ -1,5 +1,5 @@
 ### Seksjonerinsavdelingsdirektør
-```De jobber i feil seksjon, hr. Gustavsen!```
+De jobber i feil seksjon, hr. Gustavsen!
 
 #### Filer
 gustavsen (ELF-fil)
