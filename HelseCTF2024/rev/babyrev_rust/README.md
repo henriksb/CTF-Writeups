@@ -13,7 +13,6 @@ For å løse denne ble pwndbg brukt. Etter litt graving i `main` fant jeg funksj
 
 ```helsectf{rask_rust_rimer_relativt_riktig!}```
 
-Takk til [Aadlei](https://github.com/Aadlei) for hjelp med denne oppgaven.
 
 Man kan også finne to hint i filen:
 
