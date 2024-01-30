@@ -1,3 +1,0 @@
-Åpne opp i HEX editor og fjern alt unntatt header og slutten.
-
-helsectf{b0mb3rm4n_s3nt_y0u_a_fl4g}
