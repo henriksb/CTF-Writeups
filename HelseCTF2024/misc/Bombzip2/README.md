@@ -23,6 +23,6 @@ Men, hvis vi treffer bunnen ser vi noe annet:
 
 ```
 
-Jeg er ikke så kjent med akkurat dette filformatet, men noe av dette kan være en sluttsignatur. Uansett så blir vi fortalt at flagget ligger helt på slutten av filen, så vi kopierer dette, i tillegg til startsignaturen av filen og setter det i sammen til en ny. Dette kan gjøres med CTRL-C og CTRL-V i HxD. Da kan man behandle filen som en vanlig bz2 fil og hente ut flagget.
+Jeg er ikke så kjent med akkurat dette filformatet, men noe av dette kan være en sluttsignatur. Uansett så blir vi fortalt at flagget ligger helt på slutten av filen, så vi kopierer dette, i tillegg til startsignaturen av filen og setter det i sammen til en ny fil. Dette kan gjøres med CTRL-C og CTRL-V i HxD. Da kan man behandle filen som en vanlig bz2 fil og hente ut flagget.
 
 `helsectf{b0mb3rm4n_s3nt_y0u_a_fl4g}`
