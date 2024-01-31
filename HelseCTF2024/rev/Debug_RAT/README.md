@@ -55,7 +55,7 @@ DEBUG \
 HINT \
 HELP
 
-Hvis man skriver `DEBUG` finner man en if-setning inne i den. Denne funksjonen sjekker om lengden er 0x26, som er 38. Hvis man da skriver `DEBUGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG` kjører den "Secret overwrite" og printer det ut.
+Hvis man skriver `DEBUG` finner man en if-setning inne i den. Denne setningen sjekker om lengden er 0x26, som er 38. Hvis man da skriver `DEBUGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG` kjører den "Secret overwrite" og printer det ut.
 ```c
 if (local_588 == 0x26):
 ```
@@ -67,6 +67,4 @@ if (((local_4c8[0] == 'C') && (local_4c8[1] == 'A')) && (local_4c8[2] == 'T')) {
   		_INIT_3();
 ```
 Jeg fikk heller aldri gjort som oppgaven sa, at målet var å kjøre `EXEC cat /flagg.txt`.
-
-Dette ble kun funnet ut av fordi jeg ikke trodde jeg hadde løst oppgaven etter de tre delene. Det virket som om jeg manglet noe, og jeg fortsatte å grave i koden.
 
