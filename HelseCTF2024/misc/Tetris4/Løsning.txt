@@ -1,5 +1,0 @@
-Bytt denne til "true".  if (1 < state[0] / 4e3) --> if(1<2)
-Og så fortsett med juksingen (linesRemoved += 6000;)
-..og fjern juks hvis det er behov for det. if (linesRemoved > 4)  --> if (false)
-
-helsectf{nocheat}
