@@ -1,3 +1,0 @@
-Fjern drawTerrain(fb);
-
-helsectf{himmelferd}
