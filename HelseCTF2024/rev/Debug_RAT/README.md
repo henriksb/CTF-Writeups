@@ -30,7 +30,7 @@ Denne oppgaven løses uten en debugger. Deler av flagget kan man bare få ved å
     local_584 = 3;
     }
     ```
-    Her kan man se at den sjekker om lengden på input er 8, og at man har skrevet 1337. Denne if-setningen ligger inne i "cat" if-setningen. Dette betyr at kommandoen den leter etter er "CAT 1337", som har en lengde på 8 tegn (mellomrom inkludert) og inneholder "1337". Skriver man "CAT 1337" inn i serveren får man del tre av flagget:
+    Her kan man se at den sjekker om lengden på input er 8, og at man har skrevet 1337. Denne if-setningen ligger under "cat" if-setningen. Dette betyr at kommandoen den leter etter er "CAT 1337", som har en lengde på 8 tegn (mellomrom inkludert) og inneholder "1337". Skriver man "CAT 1337" inn i serveren får man del tre av flagget:
 
 ```
     > CAT 1337
