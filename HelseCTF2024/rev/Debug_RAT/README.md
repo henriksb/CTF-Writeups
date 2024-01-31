@@ -17,7 +17,7 @@ Denne oppgaven løses uten en debugger. Deler av flagget kan man bare få ved å
 
 1. Kjør `strings` kommandoen og se igjennom resultatet. Her kan man finne `Orifice???}`.  Dette ser ut som slutten på et flagg.
 
-2. Decompilerer man filen og går inn i funksjonen `FUN_00101ef2` ser man: 
+2. Dekompilerer man filen og går inn i funksjonen `FUN_00101ef2` ser man: 
     ```c
     if (((local_588 == 6)
     ```
