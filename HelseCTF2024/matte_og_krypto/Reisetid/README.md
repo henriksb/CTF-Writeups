@@ -24,7 +24,7 @@ Som eksempel, hvis de møtes kl 1201 og Kari har kjørt 11km så vil svaret vær
    1 t + 1.25 t = 2.25 timer
 
 6. **Avstand Kari Kjører:**  
-   2.25 t * 50 km/t = 112.5 km
+   2.25 t * 50 km/t = 112.5 km = 112500 meter
 
 7. **Møtetidspunkt:**  
    12 timer + 2.25 timer = 14.25 timer = 14:15 klokkeslett
