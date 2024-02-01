@@ -1,6 +1,6 @@
 # Writeup
 
-Dette min writeup på årets CTF utfordring fra HelseCTF. Jeg har ikke alltid de beste løsningne, og ikke alltid alle svarene. Men jeg liker å dokumentere det jeg gjør for å bli bedre.
+Min writeup på HelseCERT sin CTF.
 
-Oppgaver løst: 39/41 \
-Plass: 13/XXX 
+Oppgaver løst: 41/41 \
+Plass: 11/401 
