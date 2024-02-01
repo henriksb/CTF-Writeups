@@ -1,0 +1,5 @@
+Ved bruk av https://stylesuxx.github.io/steganography/ kan man finne teksten aHR0cHM6Ly9kZS53aWtpcGVkaWEub3JnL3dpa2kvRGVjYWJpdA== på bunnen. Dekoder man dette (base64), får vi: https://de.wikipedia.org/wiki/Decabit
+
+helsectf{bilde_steg0_done_r1ght__no_pun_intend3d_:):)}
+
+https://www.dcode.fr/decabit-code
