@@ -6,7 +6,7 @@ Tips! Når man møter på krypto-oppgaver med ukjent algoritme så finnes det on
 
 Kan du med dette krypterte flagget finne tilbake til klarteksten? Den følger formatet helsectf{ ... } og den kan vi se i strukturen under.
 
-tizqisld{tllfq://www.nskni.dv/softiv-oniplodoiv____iv_iP_yKn_qLcVl_pCcV_Ucp_oEe3_bi7_tboZeiL_sT1dd3v_q0U_Iv_xvGEl!}
+`tizqisld{tllfq://www.nskni.dv/softiv-oniplodoiv____iv_iP_yKn_qLcVl_pCcV_Ucp_oEe3_bi7_tboZeiL_sT1dd3v_q0U_Iv_xvGEl!}`
 
 
 #### Løsning
