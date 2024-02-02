@@ -55,7 +55,7 @@ DEBUG \
 HINT \
 HELP
 
-Hvis man skriver `DEBUG` finner man en if-setning inne i den. Denne setningen sjekker om lengden er 0x26, som er 38. Hvis man da skriver `DEBUGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG` kjører den "Secret overwrite" og printer det ut.
+Etter man skriver `DEBUG` finner man en if-setning under den. Denne setningen sjekker om lengden er 0x26, som er 38. Hvis man da skriver `DEBUGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG` kjører den "Secret overwrite" og printer det ut.
 ```c
 if (local_588 == 0x26):
 ```
