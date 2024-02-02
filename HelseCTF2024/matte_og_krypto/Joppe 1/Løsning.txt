@@ -1,9 +1,0 @@
-Google gåtene og regn ut svaret.
-
-(-500, 1229)
-(500, 2229)
-(1000, 2729)
-
-1729
-
-helsectf{ved_x_null_er_alt_gull}
