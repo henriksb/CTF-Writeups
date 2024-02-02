@@ -15,7 +15,7 @@ Her har man kun 13 tegn man kan bruke, og fil-banen vi skal til har mange boksta
 
 Jeg valgte å bruke int(not()) for å redusere lengden.
 
-Denne oppgaven *kan* løses manuelt, men ikke forvent å ha hår igjen på hodet etterpå. Måten jeg løste det på var å lage et python script til å generere en lang rekke med `chr(int(not())+int(not()))+...`.
+Måten jeg løste det på var å lage et python script til å generere en lang rekke med `chr(int(not())+int(not()))+...`.
 
 ```python
 path = "/lol/hemmeligmappe/flagg.txt"
