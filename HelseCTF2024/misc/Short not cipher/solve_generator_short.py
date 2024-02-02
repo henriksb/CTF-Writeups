@@ -49,6 +49,13 @@ for i in path:
 
 script_content = script_content.rstrip("+") + "))"
 
+double = ")*(int(not())+int(not()))+"
+
+# Bytt dobbelkonsonanter med *2, istedenfor å plusse de på hverandre
+script_content = script_content.replace(("chr(" + n_109 + ")+") * 2, "chr(" + n_109 + double) # m
+script_content = script_content.replace(("chr(" + n_112 + ")+") * 2, "chr(" + n_112 + double) # p
+script_content = script_content.replace(("chr(" + n_103 + ")+") * 2, "chr(" + n_103 + double) # p
+
 with open("solve.py", "w") as file:
     file.write("print(*open(")
     file.write(script_content)
