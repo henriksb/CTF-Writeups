@@ -51,7 +51,7 @@ n_120 = "int(repr(int(not()))+repr(int(not())+int(not()))+repr(int()))"
 Jeg har også gjort om dobbeltkonsonanter til bokstav*2, istedenfor å gjøre bokstav+bokstav. Dette reduserer lengden bittelitt.
 
 ```python
-# Bytt dobbelkonsonanter med *2, istedenfor å plusse de på hverandre
+# Bytt dobbeltkonsonanter med *2, istedenfor å plusse de på hverandre
 script_content = script_content.replace(("chr(" + n_109 + ")+") * 2, "chr(" + n_109 + double) # m
 script_content = script_content.replace(("chr(" + n_112 + ")+") * 2, "chr(" + n_112 + double) # p
 script_content = script_content.replace(("chr(" + n_103 + ")+") * 2, "chr(" + n_103 + double) # p
