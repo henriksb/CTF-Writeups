@@ -44,7 +44,7 @@ Jeg tenkte at man kanskje kunne gjette seg frem til hva flagget kunne være med 
 
 Det er jo noen bokstaver der som er korrekte, men ikke nok til at jeg kan gjette flagget. Det eneste jeg fant ut med disse metodene var at det siste avsnittet var latinsk, og etter å ha funnet svaret fikk jeg bekreftet at jeg med suksess hadde klart å bruteforce store deler av det siste avsnittet. Dessverre hjelper ikke dette mye med flagget.
 
-Siden det ikke var noen mønster i nøkkelen jeg genererte for klarteksten eller noe som så ut som ord i frekvensanalysen eller sannsynlighetsberegningen måtte det være en annen løsning.
+Siden det ikke var noen mønster i nøkkelen jeg genererte for klarteksten, og ingenting i frekvensanalysen eller sannsynlighetsberegningen måtte det være en annen løsning.
 
 Kikker man på bildet kan man se at de tre gruppene det er delt inn i er rader på tastaturet:
 
@@ -65,7 +65,7 @@ Nøkkel: klægg
 Alfabet: zxcvbnm \
 Nøkkel: nvc
 
-Får å finne nøkkelen prøver vi oss frem til vi får forventet resultat, det vil si at bokstavene som er i alfabetet vårt endrer seg til det vi har i klarteksten. Etter vi har fullført et alfabet, kopierer vi klarteksten fra det og bruker det som chiffertekst på neste alfabet. Dette gir oss flagget:
+Får å finne nøkkelen prøver vi oss frem til vi får forventet resultat, det vil si at bokstavene som er i alfabetet vårt endrer seg til det vi har i klarteksten. Etter vi har fullført et alfabet, kopierer vi resultatet fra det og bruker det som chiffertekst på neste alfabet. Vi gjør dette for alle alfabetene Dette gir oss flagget:
 
 `helsectf{duklartedet-facbaeeddefbbdaa}`
 
