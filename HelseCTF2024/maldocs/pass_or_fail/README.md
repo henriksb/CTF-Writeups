@@ -39,8 +39,8 @@ for /l %%y in (1 1 1) do start
 
 Her kan vi se mye base64 og HEX data. Gjør vi HEX dataen om til tekst får vi flagget.
 ```bat
-if 1 LsS 109 set "abc5=68656c73656374667b746869" :: helsectf{thi
-if 1 LsS 109 if == (set "abc6=735f325f7368616c6c5f706173737d" :: s_2_shall_pass}
+if 1 LsS 109 set "abc5=68656c73656374667b746869" & :: helsectf{thi
+if 1 LsS 109 if == (set "abc6=735f325f7368616c6c5f706173737d" & :: s_2_shall_pass}
 ```
 
 `helsectf{this_2_shall_pass}`
