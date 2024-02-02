@@ -1,4 +1,0 @@
-Option VBASupport 1
-Private Sub Workbook_Open()
-    flag = "helsectf{maldoc=malicious_document}"
-End Sub
