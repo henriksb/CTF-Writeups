@@ -42,7 +42,7 @@ Jeg tenkte at man kanskje kunne gjette seg frem til hva flagget kunne være med 
 
 `frekvensanalyse (nøkkel)    + gyldige bokstaver = aelsemra{aedlaetedee-sannareddesbmlaa}`
 
-Det er jo noen bokstaver der som er korrekte, men ikke nok til at jeg kan gjette flagget. Det eneste jeg fant ut med disse metodene var at det siste avsnittet var latinsk, og etter å ha funnet svaret fikk jeg bekreftet at jeg med sukksess hadde klart å bruteforce store deler av det siste avsnittet. Dessverre hjelper ikke dette mye med flagget.
+Det er jo noen bokstaver der som er korrekte, men ikke nok til at jeg kan gjette flagget. Det eneste jeg fant ut med disse metodene var at det siste avsnittet var latinsk, og etter å ha funnet svaret fikk jeg bekreftet at jeg med suksess hadde klart å bruteforce store deler av det siste avsnittet. Dessverre hjelper ikke dette mye med flagget.
 
 Siden det ikke var noen mønster i nøkkelen jeg genererte for klarteksten eller noe som så ut som ord i frekvensanalysen eller sannsynlighetsberegningen måtte det være en annen løsning.
 
