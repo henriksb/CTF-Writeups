@@ -34,4 +34,4 @@ im = Image.fromarray(spectrum.astype(np.uint8))
 im.save("flagg.png")
 ```
 ![flagg](flagg_bright.png)
-Bildet var noe mørkt, så jeg økte lysstyrken.
+Bildet var litt mørkt, så jeg økte lysstyrken.
