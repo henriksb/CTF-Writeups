@@ -2,4 +2,4 @@
 
 Min writeup på HelseCERT sin CTF.
 
-Oppgaver løst: 41/41 \
+Oppgaver løst: 41/41
