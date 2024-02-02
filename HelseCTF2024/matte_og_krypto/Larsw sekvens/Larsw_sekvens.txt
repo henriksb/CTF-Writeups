@@ -1,3 +1,0 @@
-De Bruijn sekvens.
-
-helsectf{0mG!__deBruiJn!}
