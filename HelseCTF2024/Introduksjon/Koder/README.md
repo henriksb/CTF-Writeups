@@ -6,7 +6,7 @@ https://www.finn.no/job/fulltime/ad.html?finnkode=336881415
 
 
 #### Løsning
-Skroll ned i Finn annonsen, her finner du noe rart: *aGVsc2VjdGZ7a29kaW5nX2VyX2cweX0=*
+Skroll ned i Finn annonsen, her finner du noe rart: `aGVsc2VjdGZ7a29kaW5nX2VyX2cweX0=`
 
 Dette er veldig lett å se hva er, da det slutter med et likhetstegn. Finn en [base64 dekoder](https://www.base64decode.org/) og hent flagget.
 
