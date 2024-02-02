@@ -8,6 +8,6 @@ Egg: 1/X
 Plass: 83/1291
 
 ## HelseCTF
-Oppgaver: XX/XX
+Oppgaver: 41/41
 
-Plass: XX/XX
+Plass: 11/421
