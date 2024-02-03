@@ -44,7 +44,7 @@ print(extract_following_bits(binary))
 
 Konverterer man binærtallenepå slutten til tekst får man denne linken: https://de.wikipedia.org/wiki/Decabit. Denne konversjonen er binær til ascii.
 
-Prøver man å gjøre det samme for binærtallene på toppen får man bare tull. Disse tallene må man konvertere med en [Decabit decoder](https://www.dcode.fr/decabit-code).
+Prøver man å gjøre det samme for binærtallene på toppen får man bare tull. Disse tallene må man konvertere med en [Decabit decoder](https://www.dcode.fr/decabit-code). Det er ikke nødvendig å gjøre binærtallene om til `+` og `-`.
 
 
 `helsectf{bilde_steg0_done_r1ght__no_pun_intend3d_:):)}`
