@@ -91,7 +91,7 @@ def dekrypter(chiffertekst, nøkkel, alfabet):
             dekryptert_tekst += alfabet[ny_pos]
             nøkkel_index += 1
         else:
-            dekryptert_tekst += char  # Kopierer ikke-alfabetiske tegn direkte
+            dekryptert_tekst += char  # Kopierer alt som ikke finnes i alfabetet
     
     return dekryptert_tekst
 ```
