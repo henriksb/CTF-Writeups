@@ -1,5 +1,5 @@
-n_47  = "int(repr(int(not())+int(not())+int(not())+int(not()))+repr((int(not())+int(not()))*(int(not())+int(not())+int(not()))+int(not())))"
-n_108 = "int(repr(int(not()))+repr(int())+repr((int(not())+int(not())+int(not())+int(not()))*(int(not())+int(not()))))"
+n_47  = "((int(not())+int(not()))*(int(not())+int(not())+int(not())))**(int(not())+int(not()))+int(repr(int(not()))+repr(int(not())))"
+n_108 = "int(repr(int(not()))+repr(int())+repr((int(not())+int(not()))**(int(not())+int(not())+int(not()))))"
 n_111 = "int(repr(int(not()))+repr(int(not()))+repr(int(not())))"
 n_104 = "int(repr(int(not()))+repr(int())+repr(int(not())+int(not())+int(not())+int(not())))"
 n_101 = "int(repr(int(not()))+repr(int())+repr(int(not())))"
@@ -11,7 +11,9 @@ n_102 = "int(repr(int(not()))+repr(int())+repr(int(not())+int(not())))"
 n_97  = "int(repr((int(not())+int(not())+int(not()))**(int(not())+int(not())))+repr((int(not())+int(not()))*(int(not())+int(not())+int(not()))+int(not())))"
 n_46  = "int(repr(int(not())+int(not())+int(not())+int(not()))+repr((int(not())+int(not()))*(int(not())+int(not())+int(not()))))"
 n_116 = "int(repr(int(not()))+repr(int(not()))+repr((int(not())+int(not()))*(int(not())+int(not())+int(not()))))"
-n_120 = "int(repr(int(not()))+repr(int(not())+int(not()))+repr(int()))"
+n_120 = "int(repr(int(not()))+repr(int(not())+int(not()))+repr(int()))" # x
+
+# 0x = repr(int())+chr(int(repr(int(not()))+repr(int(not())+int(not()))+repr(int())))
 
 path = "/lol/hemmeligmappe/flagg.txt"
 
