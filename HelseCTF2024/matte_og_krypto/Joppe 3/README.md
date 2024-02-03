@@ -10,7 +10,7 @@ Igjen er det ganske store tall, presisjonen må opp og Adi har igjen glemt å br
 #### Løsning
 Gåtene blir Googlet, som vanlig.
 
-Denne utfordringen viste seg å være litt forvirrende i starten. Jeg identifiserte raskt verdien av X, og fulgte den samme tilnærmingen som i den tidligere oppgaven, "Joppe2". Jeg beregnet først skjæringspunktet hvor X=0, noe som resulterte i et tall. Dette tallet ble så konvertert til tekst: `x=323454343235`. Ved å justere X-verdien for å matche dette tallet, endte jeg opp med tull.
+Denne utfordringen viste seg å være litt forvirrende i starten. Jeg identifiserte raskt verdien av X, og fulgte den samme tilnærmingen som i den tidligere oppgaven, "Joppe2". Jeg beregnet først skjæringspunktet hvor X=0, noe som resulterte i et tall. Dette tallet ble så konvertert til tekst: `x=323454343235`. Ved å justere X-verdien til å matche dette tallet, endte jeg bare opp med tull.
 
 Etter noen forsøk innså jeg at det ikke var mulig å bruke tre vilkårlige koordinater fra de fem gitt. Ved å eksperimentere med alle mulige koordinatkombinasjoner, endte jeg opp med tre forskjellige X-verdier:
 
