@@ -69,4 +69,63 @@ Får å finne nøkkelen prøver vi oss frem til vi får forventet resultat, det 
 
 `helsectf{duklartedet-facbaeeddefbbdaa}`
 
+Her er en forklaring med eksempler fra Python. Funksjonen `dekrypter` tar tre argumenter:
 
+1. `chiffertekst`: Teksten som skal dekrypteres.
+2. `nøkkel`: Ordet eller setningen som brukes til å dekryptere teksten.
+3. `alfabet`: En string eller liste som representerer alfabetet brukt i chifferet.
+
+```python
+def dekrypter(chiffertekst, nøkkel, alfabet):
+    """Dekrypter Vigenere chiffer"""
+    nøkkel_index = 0
+    dekryptert_tekst = ""
+    
+    for char in chiffertekst:
+        if char in alfabet:
+            # Finn posisjonen til bokstaven i alfabetet og nøkkelbokstaven
+            char_index = alfabet.index(char)
+            nøkkel_char_index = alfabet.index(nøkkel[nøkkel_index % len(nøkkel)])
+            # Beregn ny posisjon etter å ha trukket fra nøkkelposisjonen (med mod for å sikre at vi holder oss innenfor alfabetet)
+            ny_pos = (char_index - nøkkel_char_index) % len(alfabet)
+            dekryptert_tekst += alfabet[ny_pos]
+            nøkkel_index += 1
+        else:
+            dekryptert_tekst += char  # Kopierer ikke-alfabetiske tegn direkte
+    
+    return dekryptert_tekst
+```
+Innenfor funksjonen itereres det over hver bokstav i chifferteksten. Hvis bokstaven er en del av det gitte alfabet, beregnes dens opprinnelige posisjon ved hjelp av nøkkelbokstavens posisjon. Hvis tegnet ikke er en del av alfabet, blir det lagt til i dekryptert_tekst uten endringer. Dette er viktig, slik at vi ikke endrer på bokstaver som ikke er i alfabetet.
+
+ Hvis vi tar den første linjen fra begge tekstfilene våre har vi:
+
+`øqw xli tx fgzl uv æylxaaxgvx` fra chifferteksten, og\
+`det var en gang en franskmann` fra klarteksten.
+
+I første omgang prøver vi å dekryptere bokstavene fra tastaturets topprad: `qwertyuiopå`.
+```python
+dekryptering_del_1 = dekrypter(chiffertekst, "poteter", "qwertyuiopå")
+```
+Da gjør gjør vi den følgende endringen:
+
+`øqw xli tx fgzl uv æylxaaxgvx` =\
+`øet xlr ex fgzl ev ærlxaaxgvx`
+
+Vi kan her se at bokstavene fra `qwertyuiopå` er byttet ut til bokstavene vi har i klarteksten. Gjør vi dette for alle alfabetene får vi:
+
+```python
+alfabet = ["qwertyuiopå", "asdfghjkløæ", "zxcvbnm"]
+
+dekryptering_del_1 = dekrypter(chiffertekst,       "poteter", alfabet[0])
+>> øet xlr ex fgzl ev ærlxaaxgvx
+
+dekryptering_del_2 = dekrypter(dekryptering_del_1, "klægg",   alfabet[1])
+>> det xar ex gazg ev fraxskxavx
+
+dekryptering_del_3 = dekrypter(dekryptering_del_2, "nvc",     alfabet[2])
+>> det var en gang en franskmann
+```
+
+Å gjette seg frem til nøkkelen er ikke altfor vanskelig, da første bokstav i nøkkelen kun endrer første bokstav i chifferteksten. Vi trenger derfor ikke å finne hele nøkkelen for at resultatet skal gi mening. I tillegg til dette så er hver nøkkel en kombinasjon av bokstaver som er på samme rekke av tastaturet.
+
+Et viktig aspekt ved Vigenere-chifferet er nøkkelgjentakelse. Hvis nøkkelen er kortere enn teksten, gjentas nøkkelen til den matcher lengden på teksten. I funksjonen håndteres dette ved å bruke modulusoperatoren for å sirkulere gjennom nøkkelens bokstaver.
