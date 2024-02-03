@@ -12,51 +12,41 @@ n_97  = "int(repr((int(not())+int(not())+int(not()))**(int(not())+int(not())))+r
 n_46  = "int(repr(int(not())+int(not())+int(not())+int(not()))+repr((int(not())+int(not()))*(int(not())+int(not())+int(not()))))"
 n_116 = "int(repr(int(not()))+repr(int(not()))+repr((int(not())+int(not()))*(int(not())+int(not())+int(not()))))"
 n_120 = "int(repr(int(not()))+repr(int(not())+int(not()))+repr(int()))" # x
-
 # 0x = repr(int())+chr(int(repr(int(not()))+repr(int(not())+int(not()))+repr(int())))
+
+n_values = {
+    47: n_47,
+    108: n_108,
+    111: n_111,
+    104: n_104,
+    101: n_101,
+    109: n_109,
+    105: n_105,
+    103: n_103,
+    112: n_112,
+    102: n_102,
+    97: n_97,
+    46: n_46,
+    116: n_116,
+    120: n_120,
+}
 
 path = "/lol/hemmeligmappe/flagg.txt"
 
-script_content = ""
+def chr_from_n(n):
+    return f"chr({n})"
 
-for i in path:
-    if ord(i) == 47:
-        script_content += "chr(" + n_47 + ")+"
-    elif ord(i) == 108:
-        script_content += "chr(" + n_108 + ")+"
-    elif ord(i) == 111:
-        script_content += "chr(" + n_111 + ")+"
-    elif ord(i) == 104:
-        script_content += "chr(" + n_104 + ")+"
-    elif ord(i) == 101:
-        script_content += "chr(" + n_101 + ")+"
-    elif ord(i) == 109:
-        script_content += "chr(" + n_109 + ")+"
-    elif ord(i) == 105:
-        script_content += "chr(" + n_105 + ")+"
-    elif ord(i) == 103:
-        script_content += "chr(" + n_103 + ")+"
-    elif ord(i) == 112:
-        script_content += "chr(" + n_112 + ")+"
-    elif ord(i) == 102:
-        script_content += "chr(" + n_102 + ")+"
-    elif ord(i) == 97:
-        script_content += "chr(" + n_97 + ")+"
-    elif ord(i) == 46:
-        script_content += "chr(" + n_46 + ")+"
-    elif ord(i) == 116:
-        script_content += "chr(" + n_116 + ")+"
-    elif ord(i) == 120:
-        script_content += "chr(" + n_120 + ")+"
 
+# Legg til ascii verdien av hver bokstav i "path" med "n_xxx"-listen
+script_content = "+".join(chr_from_n(n_values[ord(i)]) for i in path if ord(i) in n_values) + "+"
+
+# Fiks parentes og feilplasserte plusstegn
 script_content = script_content.rstrip("+") + "))"
 
-double = ")*(int(not())+int(not()))+"
-
 # Bytt dobbelkonsonanter med *2, istedenfor å plusse de på hverandre
-script_content = script_content.replace(("chr(" + n_109 + ")+") * 2, "chr(" + n_109 + double) # m
-script_content = script_content.replace(("chr(" + n_112 + ")+") * 2, "chr(" + n_112 + double) # p
-script_content = script_content.replace(("chr(" + n_103 + ")+") * 2, "chr(" + n_103 + double) # p
+for i in [n_109, n_112, n_103]:
+    script_content = script_content.replace(("chr(" + i + ")+") * 2, "chr(" + i + ")*(int(not())+int(not()))+")
+
 
 with open("solve.py", "w") as file:
     file.write("print(*open(")
