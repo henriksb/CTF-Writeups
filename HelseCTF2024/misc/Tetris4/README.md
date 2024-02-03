@@ -33,6 +33,6 @@ function removeLines() {
 ```
 Funksjonen `c()` er en funksjon for å hindre juks, men selv om man fjerner hele funksjonen og alle stedene den blir nevnt vil flagget fortsatt ikke dukke opp. La oss kikke på `state[0]`, siden det er her `linesRemoved` går til.
 
-Søker man litt rundt i koden finner man `if(1<state[0]/4e3)`. Denne sjekker om `state[0]/4000` er mer enn 1. Dette ser da ut som et ekstra steg for å hindre juks. Denne vil da bli `false` om man prøver å jukse. Hvis vi endrer denne til å bli `true`, vil vi kunne jukse. Vi kan da endre den til `if(1<2)`, og så prøve å sette `linesRemoved` til 5000. Dette gir oss flagget.
+Søker man litt rundt i koden finner man `if(1<state[0]/4e3)`. Denne sjekker om `state[0]/4000` er mer enn 1. Dette ser ut som et ekstra steg for å hindre juks. Denne vil da bli `false` om man prøver å jukse. Hvis vi endrer denne til å bli `true`, vil vi kunne jukse. Vi kan da endre den til `if(1<2)`, og så prøve å sette `linesRemoved` til 5000. Dette gir oss flagget.
 
 `helsectf{nocheat}`
