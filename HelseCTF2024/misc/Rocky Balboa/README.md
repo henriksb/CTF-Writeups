@@ -26,6 +26,8 @@ with open("mellomrom.txt", "w") as w:
         if " " in i:
             w.write(i + "\n")
 ```
+Det er vedt å merke at dette scriptet tar med alle linjer som har minst ett mellomrom, selv om oppgaveteksten sier at det inneholder opptil *flere* mellomrom. Her kunne jeg nok ha redusert tiden på knekkingen litt, men svaret fikk jeg uansett.
+
 Da er det bare å kjøre hashcat på nytt med den nye tekstfilen: `hashcat -m 3200 -a 0 password.txt mellomrom.txt -o out`.
 
 `helsectf{being so stupid becuz of cheer}`
