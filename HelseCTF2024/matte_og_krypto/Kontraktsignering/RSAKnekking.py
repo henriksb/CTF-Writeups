@@ -1,7 +1,7 @@
 from Crypto.Util.number import inverse, bytes_to_long
 
 # Constants
-N=input("Skriv inn verdien av N: ")
+N=0 # Fyll inn verdien av N
 contract = b"Dette er en superviktig kontrakt for veeldig viktige ting med store ord og uforstaaelige kruseduller."
 m1 = 17  # Tilfeldig nummer
 
