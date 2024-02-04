@@ -58,6 +58,6 @@ script_content = script_content.replace(("chr(" + n_103 + ")+") * 2, "chr(" + n_
 ```
 Det er mulig man også kan bruke `oct` eller lage HEX tall som er kortere.
 
-Total mengde tegn på resultatet: 2532
+Total mengde tegn på resultatet: 2505
 
 De som lagde oppgaven hadde visstnok fått det under 2000, og en deltaker hadde fått 1427.
