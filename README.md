@@ -7,7 +7,7 @@ Egg: 1/X
 
 Plass: 83/1291
 
-## HelseCTF
+## HelseCTF 2024
 Oppgaver: 41/41
 
 Plass: 11/427
