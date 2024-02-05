@@ -42,7 +42,7 @@ binary = lsb_str[0:27000]
 print(extract_following_bits(binary))
 ```
 
-Konverterer man binærtallenepå slutten til tekst får man denne linken: https://de.wikipedia.org/wiki/Decabit. Denne konversjonen er binær til ascii.
+Konverterer man binærtallene på slutten til tekst får man en base64 kode som blir oversatt til denne linken: https://de.wikipedia.org/wiki/Decabit. Denne konversjonen er binær til ascii.
 
 Prøver man å gjøre det samme for binærtallene på toppen får man bare tull. Disse tallene må man konvertere med en [Decabit decoder](https://www.dcode.fr/decabit-code). Det er ikke nødvendig å gjøre binærtallene om til `+` og `-`.
 
