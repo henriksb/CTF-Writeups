@@ -87,6 +87,6 @@ Det er også viktig å huske at tjeneste bare tillater HEX input:
 ```python
 m = bytes.fromhex(input("message="))
 ```
-Alt må konverteres til HEX før det sendes.
+Alt må konverteres til HEX før det sendes. Dette er grunnen til at vi bruker `17` i koden, men sender `11` til serveren. 0x11 == 17.
 
 `helsectf{naar_man_jobber_med_krypto_b0r_man_vite_hva_man_gj0r}`
