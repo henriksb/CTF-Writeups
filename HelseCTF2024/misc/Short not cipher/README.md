@@ -60,4 +60,4 @@ Det er mulig man også kan bruke `oct` eller lage HEX tall som er kortere.
 
 Størrelse på resultat: 2495 bytes
 
-Det viser seg at man bare trengte å bruke "flagg.txt", da vi var i samme mappe som flagget. Burde kanskje ha prøvd det, da filbanen er absolutt, ikke relativ.
+Det viser seg at man bare trengte å bruke "flagg.txt", da vi var i samme mappe som flagget. Burde kanskje ha prøvd det, med tanke på at filbanen var absolutt, ikke relativ.
