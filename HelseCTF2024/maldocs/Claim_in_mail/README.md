@@ -6,7 +6,7 @@ Tips: Nøst opp i angrepskjeden. Finn ut hva den forsøker å kjøre. Målet er 
 I god stil er oppgavefilen pakket i en kryptert zip. (passord abc242)
 
 #### Filer
-Oppgave.zip
+f1421de8-0e36-4938-a753-849d211995d4.zip
 
 #### Løsning
 Inne i `Oppgave.zip` finner vi en fil som heter `Claim_3456.vhd`. Jeg åpnet denne opp i Autopsy og hentet ut alle filene som så interessante ut. Her finner vi blant annet et program som heter `crossbar.exe`. Etter å ha kikket litt på det ser det ut som om det er et dotnet program. Dette betyr at vi enkelt kan se på koden. Jeg åpnet exe filen i IlSpy og fant at `giefKey` var et argument. For å få flagget kjører man exe-filen med det argumentet.
