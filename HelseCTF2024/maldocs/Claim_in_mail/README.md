@@ -3,7 +3,7 @@ Du har fått en e-post med et html-vedlegg. Det er vel bare å åpne det?
 
 Tips: Nøst opp i angrepskjeden. Finn ut hva den forsøker å kjøre. Målet er å finne siste tilgjengelig steg i kjeden.
 
-I god stil er oppgavefilen pakket i en kryptert zip. (passord infected)
+I god stil er oppgavefilen pakket i en kryptert zip. (passord abc242)
 
 #### Filer
 Oppgave.zip
