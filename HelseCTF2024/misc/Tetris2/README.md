@@ -25,7 +25,7 @@ function keyPress(e) {
         }
 ```
 
-Instruksene i spillet er:
+Instruksene i spillet er:\
 ![taster](taster.png)
 
 I denne situasjonen ser vi at `ArrowUp` ikke er nevnt i instruksjonene, men det er inkludert i koden. For å løse oppgaven, må man trykke på opp-pilen til brikken forsvinner fra skjermen. Men det er også en viktig detalj her: if-setningen kontrollerer også variabelen `beenBelow`. `beenBelow` er en indikator på om brikken befinner seg nær bunnen av spillebrettet. Derfor vil opp-pilen kun fungere når brikken er plassert i bunnen av brettet
