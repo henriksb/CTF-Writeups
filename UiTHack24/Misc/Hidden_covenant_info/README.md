@@ -5,6 +5,6 @@ The covenant is slowly advancing to New Mombasa. We managed to catch a photo the
 Yanmee.jpg
 
 ## Løsning
-Brukte steghide og fant en tekstfil med navnet `new_flag.txt`. Denne filen inneholdt `UiTHack24{Airview` og massevis av whitespace. Den siste delen av flagget var whitespace encoding, som jeg dekodet med [dcode.fr](https://www.dcode.fr/whitespace-language.)
+Brukte steghide og fant en tekstfil med navnet `new_flag.txt`. Denne filen inneholdt `UiTHack24{Airview` og massevis av whitespace. Den siste delen av flagget var whitespace encoding, som jeg dekodet med [dcode.fr](https://www.dcode.fr/whitespace-language).
 
 `UiTHack24{Airview_outpost}`
