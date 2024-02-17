@@ -15,6 +15,7 @@ We can already see a few interesting things here:
 Now that we know a few parameters, we can make a F# script that runs the program! We will be using the .fsx file extension which is literally just a F# script file that works the same way as a normal python script. But first, let's find out how to start the program:
 
 ![Entrypoint](image-1.png)
+
 From here you can see that the entrypoint is "**Program.main**", which is all we need at this point. Let's make the .fsx script:
 
 ```
