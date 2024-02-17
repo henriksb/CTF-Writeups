@@ -4,6 +4,7 @@ In this task, we were given a *.dll* file called "F\#ck.dll". And based on the n
 First thing that was done, is to analyze its contents with a program called **[ILSPY](https://github.com/icsharpcode/ILSpy)** which is an open source .NET assembly browser and decompiler. When using this program, the area of interest tends to lie inside *UserString* (as the program usually waits for a very specific input). And right I was:
 
 ![Assembly of UserString](image.png)
+
 We can already see a few interesting things here:
 
 1. "Expected at least one argument, got %i.": This tells us that the program itself expects a parameter when main is run.
