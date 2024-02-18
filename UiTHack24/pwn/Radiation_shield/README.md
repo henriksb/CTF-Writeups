@@ -7,7 +7,7 @@ shield\
 libc.so.6
 
 ## Løsning
-Oppgaven er ganske klar på at vi skal utnytte en buffer overflow. I filene vi fikk kan vi se den viktige delen av koden:
+I denne oppgaven skal vi utnytte en "buffer overflow". I C-filen kan vi se den viktige delen av koden:
 
 ```c
 void shield_control(){
