@@ -45,7 +45,7 @@ I tried both of the strings listed. I assume everything is correct, except for t
 
 Gives wrong decryptions, so I started using the decompiled version of the decryption function.
 
-```
+```python
 def enc1(data, param_2):
     # Convert the input string to a mutable byte array for XOR operation
     encrypted_data = bytearray(data, 'utf-8')
