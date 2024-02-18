@@ -5,7 +5,7 @@ This task we were given an .apk file called: *"space_infiltration"*. From here, 
 
 This class had code which seems to be a way of printing out the flag.
 
-```
+```java
 package com.uithack.spaceinvaders;
 
 /* loaded from: Space Infiltration/classes */
