@@ -3,7 +3,7 @@ In this task, we were given a *.dll* file called "F\#ck.dll". And based on the n
 
 First thing that was done, is to analyze its contents with a program called **[ILSPY](https://github.com/icsharpcode/ILSpy)** which is an open source .NET assembly browser and decompiler. When using this program, the area of interest tends to lie inside *UserString* (as the program usually waits for a very specific input). And right I was:
 
-![Assembly of UserString](image.png)
+![Assembly of UserString](Pictures/image.png)
 
 We can already see a few interesting things here:
 
@@ -14,7 +14,7 @@ We can already see a few interesting things here:
    
 Now that we know a few parameters, we can make a F# script that runs the program! We will be using the .fsx file extension which is literally just a F# script file that works the same way as a normal python script. But first, let's find out how to start the program:
 
-![Entrypoint](image-1.png)
+![Entrypoint](Pictures/image-1.png)
 
 From here you can see that the entrypoint is "**Program.main**", which is all we need at this point. Let's make the .fsx script:
 
