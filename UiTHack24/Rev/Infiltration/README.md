@@ -1,7 +1,7 @@
 ## Infiltration
 This task we were given an .apk file called: *"space_infiltration"*. From here, you can download, install and use a tool called **jadx-gui** which you can open the .apk file with as its corrupted in some way (missing some files or the manifest is plain broken?). There I found some classes, one which was called "Flag".
 
-![alt text](Pictures\image.png)
+![alt text](Pictures/image.png)
 
 This class had code which seems to be a way of printing out the flag.
 
