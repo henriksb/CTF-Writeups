@@ -15,6 +15,6 @@ Plass: 11/427
 ## UiTHack24 2024
 Oppgaver: 19/36
 
-Plass 12/57
+Plass: 12/57
 
 Team: Henriksb og [Aadlei](https://github.com/Aadlei) (Ådne's Boys)
