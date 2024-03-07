@@ -12,7 +12,7 @@ babyrev_fortran (ELF-fil)
 Kjør programmet, så får man teksten:
 ```flag=gemredsf|k3oFe`r1E2n`e02j_qqoh`MNdR8d_j^Fpqts`n`80~```
 
-Her kan man fort se at deler av "helsectf" er korrekt. Se man nærmere på dette så finner man mønsteret +1,0,-1. Altså, bokstaven etter, samme bokstav, og bokstaven før. For å løse dette kan vi lage et script til å fikse bokstavene:
+Her kan man fort se at deler av "helsectf" er korrekt. Ser man nærmere på dette så finner man mønsteret +1,0,-1. Altså, bokstaven etter, samme bokstav, og bokstaven før. For å løse dette kan vi lage et script til å fikse bokstavene:
 
 ```python
 flagg = "gemredsf|k3oFe`r1E2n`e02j_qqoh`MNdR8d_j^Fpqts`n`80~"
