@@ -83,7 +83,7 @@ m2 = bytes_to_long(contract) * inverse(m1, N) % N # Utregning av m2 som vi også
 kombinert_signatur = (sig1 * sig2) % N # Kombiner de to signaturene vi får tilbake
 ```
 
-Det er også viktig å huske at tjeneste bare tillater HEX input:
+Det er også viktig å huske at tjenesten bare tillater HEX input:
 ```python
 m = bytes.fromhex(input("message="))
 ```
