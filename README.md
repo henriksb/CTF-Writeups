@@ -12,7 +12,7 @@ Oppgaver: 41/41
 
 Plass: 11/427
 
-## UiTHack24 2024
+## UiTHack24 2024 (24 timer)
 Oppgaver: 19/36
 
 Plass: 12/57
