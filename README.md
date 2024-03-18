@@ -18,3 +18,8 @@ Oppgaver: 19/36
 Plass: 12/57
 
 Team: Henriksb og [Aadlei](https://github.com/Aadlei) (Ådne's Boys)
+
+## 1753CTF (24 timer)
+Plass 24/243
+
+Team: Henriksb og [Aadlei](https://github.com/Aadlei) (Ådne's Boys)
