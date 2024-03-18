@@ -1,5 +1,5 @@
 # 1753ctf
-Team: Ådnes Boys \
+Team: AadnesBoys \
 Place: 24 \
 Points: 1820
 
