@@ -99,9 +99,9 @@ To exploit this program and capture the flag:
 
 1. Craft a Payload: You need to write assembly code (or compile C code to assembly that fits the constraints) that:
 
-i. Uses the write system call to output the flag to stdout.
-i. Operates under the assumption that the starting address of the flag is provided in the RAX register (as the program's final instructions before executing the untrusted code suggest).
-i. Adheres to the x86_64 calling conventions, specifically for system calls (e.g., system call number in RAX, arguments in RDI, RSI, RDX, etc., for the write syscall).
+* Uses the write system call to output the flag to stdout.
+* Operates under the assumption that the starting address of the flag is provided in the RAX register (as the program's final instructions before executing the untrusted code suggest).
+* Adheres to the x86_64 calling conventions, specifically for system calls (e.g., system call number in RAX, arguments in RDI, RSI, RDX, etc., for the write syscall).
 
 2. Bypass the seccomp Filter: Ensure your payload only uses the allowed system calls (write, exit, exit_group). Since the program explicitly kills any process that attempts to use a system call other than these, your payload must avoid making any other system calls.
 
