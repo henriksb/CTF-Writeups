@@ -1,25 +1,6 @@
-# Mine CTF Løsninger
-
-## NPST 2023
-Oppgaver: 18/24
-
-Egg: 1/X
-
-Plass: 83/1291
-
-## HelseCTF 2024
-Oppgaver: 41/41
-
-Plass: 11/427
-
-## UiTHack24 2024 (24 timer)
-Oppgaver: 19/36
-
-Plass: 12/57
-
-Team: Henriksb og [Aadlei](https://github.com/Aadlei) (Ådne's Boys)
-
-## 1753CTF (24 timer)
-Plass 24/243
-
-Team: Henriksb og [Aadlei](https://github.com/Aadlei) (Ådne's Boys)
+| Event         | Year | Challenges Completed | Eggs | Place   | Team                          |
+|---------------|------|----------------------|------|---------|-------------------------------|
+| NPST          | 2023 | 18/24                | 1/X  | 83/1291 | Henriksb                              |
+| HealthCTF     | 2024 | 41/41                |      | 11/427  | Henriksb                              |
+| UiTHack24     | 2024 | 19/36                |      | 12/57   | Henriksb and [Aadlei](https://github.com/Aadlei) (Ådne's Boys) |
+| 1753CTF       | 2024 | XX/XX                |      | 24/243  | Henriksb and [Aadlei](https://github.com/Aadlei) (Ådne's Boys) |
