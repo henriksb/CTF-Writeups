@@ -5,7 +5,7 @@
 | UiTHack24       | 2024 | 19/36                |      | 12/57    | Henriksb and [Aadlei](https://github.com/Aadlei) (Ådne's Boys) |
 | 1753CTF         | 2024 | XX/XX                |      | 24/243   | Henriksb and [Aadlei](https://github.com/Aadlei) (Ådne's Boys) |
 | Cyberlandslaget | 2024 | XX/XX                |      | XX/XXX   | Henriksb |
-| PicoCTF 2024    | 2024 | 42/47                |      | 162/6957 | Henriksb, [Ericrulec](https://github.com/Ericrulec), and [Aadlei](https://github.com/Aadlei) (Ådne's Boys |
+| PicoCTF 2024    | 2024 | 42/47                |      | 162/6957 | Henriksb, [Ericrulec](https://github.com/Ericrulec), and [Aadlei](https://github.com/Aadlei) (Ådne's Boys) |
 
 
 [CTFTime](https://ctftime.org/team/285939)
