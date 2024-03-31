@@ -5,7 +5,7 @@ Undersøk filen modul2.zip og se om du finner frem til dagens kodeord...
 
 ## Løsning
 
-Tid brukt: 1 timer og 15 minutter
+Tid brukt: 58 minutter
 
 I denne oppgaven fikk vi et Word-dokument. Jeg fant fort ut at det var hemmelig informasjon på det, da jeg unzippet hele dokumentet med kommandoen: `unzip Document.docx "*"`. Her fant jeg dette bildet:
 
