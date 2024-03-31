@@ -22,7 +22,7 @@ Lykke til!
 
 ## Løsning
 
-Tid brukt: 5 minutter
+Tid brukt: 7 minutter
 
 Jeg misforstod oppgaven litt (prøvde å gjøre den raskt og leste ikke oppgaveteksten) og trodde ordet vi skulle skrive var "yo". Etter å ha lest teksten skikkelig innså jeg at det var første bokstaven av brukernavnet vårt vi skulle skrive, uten loops og input.
 
