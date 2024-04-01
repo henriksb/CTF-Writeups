@@ -6,7 +6,7 @@
 | 1753CTF         | 2024 | 8/26                 |      | 24/243   | Henriksb and [Aadlei](https://github.com/Aadlei) (Ådne's Boys) |
 | Cyberlandslaget | 2024 | XX/XX                |      | XX/XXX   | Henriksb |
 | PicoCTF 2024    | 2024 | 42/47                |      | 162/6957 | Henriksb, [Ericrulec](https://github.com/Ericrulec), and [Aadlei](https://github.com/Aadlei) (Ådne's Boys) |
-| Novacare        | 2024 | 10/10                |      | X/XXX    | Henriksb |
+| Novacare        | 2024 | 10/10                |      | 3/143    | Henriksb |
 
 
 [CTFTime](https://ctftime.org/team/285939)
