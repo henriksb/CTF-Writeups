@@ -1,4 +1,4 @@
-### Bokstavkrypto
+# Bokstavkrypto
 
 Analyseavdelingen har fanget opp en klartekst med tilhørende chiffertekst, men det siste avsnittet av klarteksten mangler.
 
@@ -23,7 +23,7 @@ klartekst.txt
 bokstavkrypto_piler_og_baner.png
 
 
-#### Løsning
+## Løsning
 Etter fire dager med kun én person som hadde løst opppgaven, kom de ut med et hint. Dette hintet viser tre grupper med bokstaver, hvor pilene viser hvilke klartekst bokstaver som går til hvilke chiffertekst bokstaver. Etter å ha kikket litt på dette bildet innså jeg at det var akkurat den samme koblingen jeg hadde funnet selv ved å hente bokstavende på samme indeks.
 
 Listen med bokstavkoblinger jeg genererte er den følgende:
