@@ -1,4 +1,4 @@
-### Reisetid
+# Reisetid
 Kari og Ola bor 150km fra hverandre og skal møtes for å ta en kaffe. Kari kjører kl 1200, og ville brukt 3 timer om hun måtte kjøre hele lengden på 150km. Ola kjører kl 1300, og ville brukt 5 timer om han måtte kjøre hele lengden på 150km.
 
 Hva er klokka når de møtes, og hvor langt i meter har Kari kjørt?
@@ -7,7 +7,7 @@ Flaggformat: helsectf{\<tid 4tall\>\_\<lengde i meter\>}
 
 Som eksempel, hvis de møtes kl 1201 og Kari har kjørt 11km så vil svaret være "1201_11000". Merk at dette bare var et eksempel for å vise deg hvordan du leverer når du har riktig svar.
 
-#### Løsning
+## Løsning
 1. **Karis Forsprang på Grunn av Olas Forsinkelse:**  
    50 km/t * 1 t = 50 km
 
