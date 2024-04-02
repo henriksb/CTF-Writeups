@@ -1,4 +1,4 @@
-### Larsw sekvens
+# Larsw sekvens
 
 Vi har fanget opp en spesiell sekvens AAABAACAADAAEAAFAAGAAHAAIAAJAAKAALAAMAANAAOAAPAAQAARAASAATAAUAAVAAWAAXAAYAAZAAaAAbAAcAAdAAeAAfAAgAAhAAiAAjAAkAAlAAmAAnAAoAApAAqAA med en liste av korte tegn:
 
@@ -33,7 +33,7 @@ AqAA
 Kameraten til Lars sier at han kan ha brukt dette til å kryptere flagget. Lars har muligens en overdreven interesse i sekvenser laget av Nicolaas Govert.
 
 
-#### Løsning
+## Løsning
 Nicolaas Govert de Bruijn er skaperen av de Bruijn sekvensen. En de Bruijn-sekvens kan forklares på en enkel måte ved å tenke på en spesiell type puslespill. Forestill deg at du har et alfabet (for eksempel bokstavene A og B, eller tallene 0 og 1) og du ønsker å sette sammen en så kort rekkefølge som mulig hvor du kan finne hver tenkelig kombinasjon av bokstaver eller tall av en bestemt lengde nøyaktig én gang.
 
 For eksempel, hvis du bare bruker tallene 0 og 1 og ønsker at hver mulige kombinasjon av to tall skal vises, kan en de Bruijn-sekvens være 00110. I denne sekvensen finner du 00, 01, 11, og 10. Hvis du ser på det som en ring eller en sirkel, ser du at etter 0 kommer en annen 0 (00), etterfulgt av en 1 (01), og så videre. På denne måten har du alle par av tallene uten å gjenta deg selv mer enn nødvendig.
