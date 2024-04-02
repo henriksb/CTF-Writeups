@@ -1,4 +1,4 @@
-### Kontraktsignering
+# Kontraktsignering
 Signaturtjenesten 2OpphøydIe signerer alle dine meldinger, bortsett fra den superviktige kontrakten.
 
 Alle som har riktig signatur på kontrakten får flagget!
@@ -6,7 +6,7 @@ Alle som har riktig signatur på kontrakten får flagget!
 #### Filer
 source.py
 
-#### Løsning
+## Løsning
 
 I denne oppgaven får man kildekoden som kjører på en ekstern server:
 
