@@ -1,4 +1,4 @@
-### Joppe2
+# Joppe2
 
 Redd Joppe, død eller levende!
 
@@ -9,7 +9,7 @@ Denne gangen er koden delt slik at du trenger 3 av bitene fra gjengen på 5 for 
 Det er ganske store tall, presisjonen må opp og Adi kan ha glemt å bruke modulo her.
 
 
-#### Løsning
+## Løsning
 
 Igjen bruker jeg Google til å finne svarene på gåtene, som ga meg koordinatene.
 
