@@ -1,4 +1,4 @@
-### Alder
+# Alder
 Kari og Ola er to gamle vampyrer.
 
 I dag er Kari 3133713 år eldre enn Ola. Om 5 år vil Kari være 4 ganger eldre enn Ola. Hvor gammel er Kari og Ola i dag?
@@ -7,7 +7,7 @@ Flaggformat: helsectf{\<alder kari\>\_\<alder ola\>}
 
 Som eksempel, hvis Kari er 1 år og Ola er 3 år så ville svaret vært helsectf{1_3}. Merk at dette bare var et eksempel for å vise deg hvordan du leverer når du har riktig svar.
 
-#### Løsning
+## Løsning
 
 For å løse problemet med alderen til Kari og Ola, anvendte vi to kjente forhold og algebra for å sette opp og løse et system av ligninger. Her er detaljene:
 
