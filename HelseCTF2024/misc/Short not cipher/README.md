@@ -54,7 +54,7 @@ Jeg har også gjort om dobbeltkonsonanter til bokstav*2, istedenfor å gjøre bo
 # Bytt dobbeltkonsonanter med *2, istedenfor å plusse de på hverandre
 script_content = script_content.replace(("chr(" + n_109 + ")+") * 2, "chr(" + n_109 + double) # m
 script_content = script_content.replace(("chr(" + n_112 + ")+") * 2, "chr(" + n_112 + double) # p
-script_content = script_content.replace(("chr(" + n_103 + ")+") * 2, "chr(" + n_103 + double) # p
+script_content = script_content.replace(("chr(" + n_103 + ")+") * 2, "chr(" + n_103 + double) # g
 ```
 Det er mulig man også kan bruke `oct` eller lage HEX tall som er kortere.
 
