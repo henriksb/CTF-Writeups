@@ -7,6 +7,6 @@ Tid brukt: 9 sekunder
 
 First blood!
 
-Ordet er skrevet i oppgaveteksten med RTLO (Right to left overwrite). Dette tegnet speiler alt som blir skrevet etter det.Kopier ordet, og lim det inn. Det vil bli limt inn rett vei.
+Ordet er skrevet i oppgaveteksten med RTLO (Right to left overwrite). Dette tegnet speiler alt som blir skrevet etter det. Kopier ordet, og lim det inn. Det vil bli limt inn rett vei.
 
 Kodeord: fjasemikkel
