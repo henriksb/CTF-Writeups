@@ -7,6 +7,7 @@
 | PicoCTF 2024    | 2024 | 42/47                |      | 162/6957 | Henriksb, [Ericrulec](https://github.com/Ericrulec), and [Aadlei](https://github.com/Aadlei) (Ådne's Boys) |
 | Novacare        | 2024 | 10/10                |      | 3/154    | Henriksb |
 | KiNS CTF 2024   | 2024 | 17/23                |      | 4/12     | Vestland |
+| Huntress 2024   | 2024 | XX/XX                |      | XX/XX    | Henriksb, [Ericrulec](https://github.com/Ericrulec), and [Aadlei](https://github.com/Aadlei) (Ådne's Boys) |
 
 
 [CTFTime](https://ctftime.org/team/285939)
