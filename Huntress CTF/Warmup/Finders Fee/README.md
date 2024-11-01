@@ -1,0 +1,1 @@
+find /home/finder -name "flag.txt" -exec cat {} \;
