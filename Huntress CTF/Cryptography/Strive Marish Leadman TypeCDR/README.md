@@ -1,0 +1,27 @@
+# Strive Marish Leadman TypeCDR
+Looks like primo hex garbage.\
+Maybe something went wrong?\
+Can you make sense of it?
+
+## Solution
+When connecting to the server we were given, I got the following:
+
+```
+root@henrik:~# nc challenge.ctf.games 30218
+p: 0xe872164c8ad45745225fffdf9f474709e3e99952646c105c8e050bc14efabeb54a029dc758a55966eef499a41f747b971a7af79632f2293bb03def4ab289d6a3
+q: 0xd72ef150a2c2402ded6bbce0928c8b4d7fa7c622ec5218d25624268afef7ae370ca2a3dad7646acd04e1c67ae303416c56ef1091bca034be0a4f631cab2e2e5d
+d: 0x37c3106cbd62852d93082a090998509adc57affaabd89e2770e5aff403f36863b6cf3321a577240cd13e426eee87204a6fc45062a92b55ae5610a642442ca7950fe4b47008bfc3c23c443ebb58eb3887342802ffbf414b89fc5e298b6fc47a418c37c2241f7fe41a38235a67416feefe539c9e5a7eb2160f6c461f86efa0db81
+e: 0x10001
+n: 0xc3627056e8c6e0e795de3c3d25e764c77569f0ec03c49249594f1136cd13a8b8610d7e96906f60a107d0f7a3d1701b652ca82fd5dd974e87ef57c3d147604c3d3283867971b10aaa777793932ff247f8f567a4c3f6c07f9eaf46d75450caece56b5ba73055c26cbebdb6a818620bc8287cf395b8a5f1b16e7b8f042f12ee4337
+
+0x665a08183eb55c9fc4883fd026acc79928bfee85859615592562d432162e4f59d7254ff94fd96d186c73d201637f36e2ca613a5356af95e8c2fdb755bc3d8a30b7a63bb2445871cc8e1d17a324cbbc8d175166b2f8b83c39e1666dbdc701b737c05ff0163d099fbcb81f36864ae3ddeb7b52bdc7564af545818a15efcf20966e
+```
+
+This looks like RSA, which can easily be decrypted:
+
+```python
+from Crypto.Util.number import long_to_bytes
+
+decrypted_message = long_to_bytes(pow(ciphertext, d, n))
+print(decrypted_message)
+```
