@@ -1,4 +1,8 @@
-Even though this was a "Scripting" task. I solved it manually using Wireshark. By using the hint "Echo chamber" i filtered by `icmp.type == 8`, which is echo. By quickly scrolling through the ascii, I saw a closing parenthesis, and thereby the flag.
+# Echo Chamber
+Is anyone there? Is anyone there? I'm sending myself the flag! I'm sending myself the flag!
+
+## Solution
+Even though this was a "Scripting" task. I solved it manually using Wireshark. By using the hint "Echo chamber" I filtered by `icmp.type == 8`, which is echo. By quickly scrolling through the ascii, I saw a closing parenthesis, and thereby the flag.
 
 This task can also be automated using tshark:
 ```sh
