@@ -4,7 +4,7 @@ Maybe something went wrong?\
 Can you make sense of it?
 
 ## Solution
-When connecting to the server we were given, I got the following:
+When connecting to the server, I got the following:
 
 ```
 root@henrik:~# nc challenge.ctf.games 30218
