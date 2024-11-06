@@ -1,0 +1,1 @@
+tshark -r keyboard_junkie -Y "usb.transfer_type == 0x01" -T fields -e usb.capdata > tshark_output
