@@ -1,0 +1,1 @@
+Simply run it in a debugger, move through all the characters which is XOR'ed, till the flag appears in the stack.
