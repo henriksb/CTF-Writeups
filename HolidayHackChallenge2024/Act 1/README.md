@@ -184,7 +184,7 @@ As a gift, I got the shredded paper, which is exactly 1000 images with 1px width
 
 Running the script gave me this image:
 
-![alt text](assembled_image.png)
+![alt text](../images/assembled_image.png)
 
 This image will be useful for the next task.
 
