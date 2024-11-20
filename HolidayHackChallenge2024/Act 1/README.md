@@ -164,7 +164,7 @@ The numbers were the following:
 14:8:6
 ```
 
-This decodes to: SANTA
+Using the book, this was decoded to "SANTA".
 
 Now I had to convert this to six numbers somehow. After thinking about it for a while I realized it was a phone cipher:
 
@@ -177,6 +177,8 @@ N = 6
 T = 8
 A = 2
 ```
+
+I entered the numbers and received the medal.
 
 ### One Thousand Little Teeny Tiny Shredded Pieces of Paper
 
