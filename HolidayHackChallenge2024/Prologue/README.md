@@ -51,7 +51,7 @@ Then finish one row of the puzzle.
 ## Elf Minder
 ![alt text](../images/image-5.png)
 
-This was a puzzle game with increasing diffuculty, where you have to draw a path to collect all the crates and avoid obstacles at the same time. All while having a time limit (which is way too long, by the way).
+This was a puzzle game with increasing diffuculty, where you have to draw a path to collect all the crates and avoid obstacles at the same time. All while having a time limit (which is way too long, by the way). To get the silver medal, just solve the puzzles the normal way. It should not take more than an hour.
 
 ![alt text](../images/image-6.png)
 
