@@ -132,7 +132,7 @@ for index, combo in enumerate(all_combinations, start=1):
 ```
 I got it on the 46th attempt, which makes me think this was the intended solution. The script was fairly dumb, so it did not know when the answer was correct. I had to count the amount of errors from the browser console logs to find the correct number.
 
-I also decided to make a [slightly better version using javascript](../scripts/frosty_bruteforce.py) in the console, as I found this to be the most effective and simple way to do this properly. The script is simply pasted into the developer console and breaks when it finds the correct code.
+I also decided to make a [slightly better version using javascript](../scripts/frosty_bruteforce.js) in the console, as I found this to be the most effective and simple way to do this properly. The script is simply pasted into the developer console and breaks when it finds the correct code.
 
 ### The note
 Earlier in the challenge, the characters spoke of a book. And considering that this note was a book cipher, or *Ottendorf* cipher, we would need to use this book. There was even a comment in the HTML telling us which cipher it was:
