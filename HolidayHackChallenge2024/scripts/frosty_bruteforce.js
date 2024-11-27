@@ -21,6 +21,6 @@ const generateCombinations = (digits, length) => {
         } catch (error) {
             console.error(`Error trying combination ${combination}:`, error);
         }
-        await sleep(100);
+        await sleep(1000);
     }
 })();
