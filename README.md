@@ -9,6 +9,7 @@
 | KiNS CTF 2024   | 2024 | 17/23                | 4/12    | Vestland |
 | Huntress 2024   | 2024 | 65/71                | 91/3444 | Henriksb, [Aadlei](https://github.com/Aadlei), and [Ericrulec](https://github.com/Ericrulec) (Ådne's Boys) |
 | Sans HHC 2024   | 2024 | XX/XX                | XX/XX   | Henriksb |
+| Novacare jul    | 2024 | XX/XX                | X/XXX   | Henriksb |
 
 
 [CTFTime](https://ctftime.org/team/285939)
