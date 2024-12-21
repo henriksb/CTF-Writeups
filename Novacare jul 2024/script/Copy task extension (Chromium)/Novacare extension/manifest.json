@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Kodekalender Auto Copy",
+  "version": "1.0",
+  "permissions": [
+    "clipboardWrite", 
+    "activeTab", 
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://kodekalender.novacare.no/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
