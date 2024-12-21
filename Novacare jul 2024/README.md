@@ -45,7 +45,7 @@ For å vite at jeg kan stole på deg, må du svare på denne meldingen med forna
 ## Løsning
 På backup-nettsiden finner vi en person med navnet `Sander Sikkerhet`, dette er personen vi er ute etter. Dette gikk egentlig på ren gjetting, men det er kun fire personer det kan være. Ikke altfor vanskelig å gjette seg frem til.
 
-![alt text](/bilder/sander.png)
+![alt text](bilder/sander.png)
 
 Kodeorder er: `Sander`
 
