@@ -17,11 +17,19 @@
 - Luke 15: [Kokken](#luke-15-kokken)
 - Luke 16: [BEEB BEEEEEP!](#luke-16-beeb-beeeeep)
 - Luke 17: [De tre musketerer](#luke-17-de-tre-musketerer)
+- Luke 18: [The summer of...?](#luke-18-the-summer-of)
+- Luke 19: [OSINT](#luke-19-osint)
+- Luke 20: [SNES](#luke-20-snes)
+- Luke 21: [Lyden av...?](#luke-21-lyden-av)
+- Luke 22: [Hit og dit](#luke-22-hit-og-dit)
+- Luke 23: [Julemat](#luke-23-julemat)
+- Luke 24: [Tensinet](#luke-24-tensinet)
 
 
 - Sidequest for firstblood
   - [OSINT](#osint)
   - [Extension med GPT](#chatgpt)
+
 
 # Luke 1: Fortrolig melding!
 Hei!
@@ -219,7 +227,7 @@ Av og til kan det være litt vanskelig å se det store bildet, men i dag bør du
 
 Skurkene i Tensinet har jobbet med en ny form for captcha for å med større treffsikkerhet skille mennesker fra maskiner. Altså, det er den offisielle forklaringen. Egentlig er de bare ute etter at befolkningen skal hjelpe dem med å trene opp sin neste store AI-modell.
 
-Vi kan like det eller ikke, men jeg trenger din hjelp til å løse denne oppgaven. Setter du [bitene](/filer/puzzle.zip) sammen på rett måte, bør du få noe som vil fungere som dagens kodeord.
+Vi kan like det eller ikke, men jeg trenger din hjelp til å løse denne oppgaven. Setter du [bitene](filer/puzzle.zip) sammen på rett måte, bør du få noe som vil fungere som dagens kodeord.
 
 /sander
 
@@ -641,7 +649,7 @@ Hei!
 
 I dag ble jeg oppringt av en dame som påsto hun hadde viktige opplysninger om Tensinet, og ba meg møte henne senere i dag. Det var noe rart med stemmen, hun hørtes nesten ut som en heks. Kanskje stemmen bare var fordreid. Jeg har tenkt litt på om dette kan være en felle, men jeg må nesten ta sjansen.
 
-Helt på slutten av samtalen kom det noen underlige [pipelyder](/filer/dtmf.wav). Kan du sjekke om du kan få et kodeord ut av dette?
+Helt på slutten av samtalen kom det noen underlige [pipelyder](filer/dtmf.wav). Kan du sjekke om du kan få et kodeord ut av dette?
 
 /sander
 
@@ -755,6 +763,8 @@ out body;
 out skel;
 ```
 
+Jeg vil også nevne at jeg enkelt hadde fått first blood på denne om jeg var hjemme på PC-en :)
+
 Kodeordet er: `Bergen Sjøfartsmuseum`
 
 
@@ -767,7 +777,7 @@ I dag er det 20. desember. Jeg sitter innelåst i kjelleren under et stinkende m
 
 Mye tyder på at de har hyret inn et callsenter i India for å svindle norske minstepensjonister, slik at de kan kjøpe en hel masse NVIDIA H100 GPU-er. De norske pensjonistene viste seg å ikke være så lettlurte, så nå sliter de med finansieringen.
 
-Jeg har fått oversendt en [logg over samtaler](/filer/calls.zip) fra dette callsenteret, og du må analysere dataene og finne det telefonnummeret de har ringt flest ganger. Dagens kodeord er dette telefonnummeret.
+Jeg har fått oversendt en [logg over samtaler](filer/calls.zip) fra dette callsenteret, og du må analysere dataene og finne det telefonnummeret de har ringt flest ganger. Dagens kodeord er dette telefonnummeret.
 
 /s
 
@@ -806,7 +816,7 @@ Mye tyder på at Tensinet jobber med en krysning mellom Rabbit R1 og Neuralink. 
 
 Når det gjelder maskin-menneske-grensesnittet, har de bestilt noen starter kits fra Backyard Brains. Dette kan umulig være trygt, men jeg mistenker at de tenker å utføre forsøk på meg.
 
-Jeg trenger din hjelp til å undersøke [følgende lydfil](/filer/sound.wav), som skal være et opptak av hjerneaktiviteten til en av de første forsøkspersonene. Det skal være et ord skjult her, som er dagens kodeord.
+Jeg trenger din hjelp til å undersøke [følgende lydfil](filer/sound.wav), som skal være et opptak av hjerneaktiviteten til en av de første forsøkspersonene. Det skal være et ord skjult her, som er dagens kodeord.
 
 /s
 
@@ -826,7 +836,7 @@ Sjekk ut /mission på nettsidene deres, men ikke la deg sende helt på ville vei
 
 /s
 
-# Løsning
+## Løsning
 Jeg hadde *egentlig* løsningen på denne oppgaven før dag 22, men jeg ga med uhell beskjed om det, så de endret på kodeordet. Whoops, mistet potensielt en first blood der.
 
 Denne oppgaven går ut på at man blir omdirigert fra tensinet.tech/mission til tensinet.tech/the-actual-mission, og så til tensinet.tech/contact, men svaret ligger på /the-actual-mission. For å få svaret må man stoppe siden fra å sende deg videre, og så lese kodeordet.
@@ -837,6 +847,48 @@ We're aiming for nothing less than total universe domination and creation of a n
 ```
 
 Kodeordet er: `total universe domination and creation of a new reality`
+
+# Luke 23: Julemat
+Dårlige nyheter, kompis!
+
+Gårdagens lille redirect-stunt gjorde at Tensinet nå er på sporet av deg også!
+
+Jeg hørte nettopp at de snakket om at de lyktes med å montere en helt sprø sporingsdings på enheten din. De nevnte også navnet henriksb og adressen REDACTED, så jeg tror du bør ta dette meget alvorlig!
+
+Jeg kan ikke gi deg dagens oppdrag før du har kvittet deg med sporingsenheten!
+
+/s
+
+## Løsning
+
+Her var det lagt til en cookie som restrikterte brukeren. Jeg bruker en extension med navnet "Cookie-Editor", hvor jeg fjernet den nye cookien. Når jeg lastet inn siden på nytt fikk jeg følgende tekst:
+
+Supert, nå kan de ikke lenger spore oss!
+
+Nå trenger jeg ikke mer hjelp i dag! Jeg fikk tak i nøkkelen til døra der jeg er innelåst. I kveld rømmer jeg!
+
+Dagens kodeord er: fri
+
+/s
+
+Kodeordet er: `fri`
+
+# Luke 24: Tensinet
+Nå er det jul, og jeg er fri. Før jeg rømte, fikk jeg rasket med meg rikelig med bevismateriale som skal overleveres politiet.
+
+Mens jeg var innestengt overhørte jeg en samtale om opprinnelsen til navnet Tensinet.
+
+Ordet Tensinet er et anagram for noe som Blake Lemoine fikk sparken for å påstå at Google sin AI var. Dagens kodeord er dette ordet.
+
+Takket være din hjelp, får vi nå stoppet Tensinet før deres AI blir nettopp dette, og dermed hindrer vi den i å ta over verden, universet, og forandre vår virkelighet for all fremtid!
+
+Bra jobbet! Og, riktig god jul! 🎅
+
+## Løsning
+
+Stokker vi litt om på bokstavene i "tensinet" får vi kodeordet.
+
+Kordeordet er: `sentient`
 
 ## Sidequest for firstblood
 
