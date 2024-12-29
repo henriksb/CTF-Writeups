@@ -10,7 +10,7 @@ We're aiming for nothing less than world domination!
 """
 
 # URLs
-login_url = "https://kodekalender.novacare.no/innlogging?token=ADD TOKEN HERE"
+login_url = "https://kodekalender.novacare.no/innlogging?token=[ADD TOKEN HERE]"
 form_url = "https://kodekalender.novacare.no/luke22"
 
 # Answer to be submitted
