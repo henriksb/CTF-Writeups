@@ -217,7 +217,7 @@ Dagens kodeord er fullt navn på den andre personen, tre + seks bokstaver. Rykte
 
 ![alt text](bilder/dag9.png)
 
-Det andre navnet er "Mama Slant", og med tanke på de andre hintene kan dette se ut som Sam Altman, CEO i OpenAI.
+Det andre navnet er "Mama Slant", og med tanke på de andre hintene kan dette se ut som et anagram av Sam Altman, CEO i OpenAI.
 
 Svaret er `Sam Altman`
 
@@ -906,3 +906,4 @@ En annen veldig enkel måte å få et raskt svar på er å bruke ChatGPT. Jeg la
 Jeg fikk en liten varsel fra Novacare da jeg testet leverings-scriptet mitt. Jeg var litt dum og brukte 10 tråder for å levere raskest. Jeg svarte på e-posten og nevnte at jeg hadde svaret på luke 22, og ville være raskest ute, slik som andre hadde gjort tidligere.
 
 Et par timer senere ser jeg at tensinet.tech/the-real-mission er endret. Den sender oss ikke til luke22 lengre, den sender oss til /contact. /mission sender oss til `rotten.com`, tror jeg ødela first-blooden min der!
+
