@@ -8,8 +8,8 @@
 | Novacare        | 2024 | 10/10                | 3/154   | Henriksb |
 | KiNS CTF 2024   | 2024 | 17/23                | 4/12    | Vestland |
 | Huntress 2024   | 2024 | 65/71                | 91/3444 | Henriksb, [Aadlei](https://github.com/Aadlei), and [Ericrulec](https://github.com/Ericrulec) (Ådne's Boys) |
-| Sans HHC 2024   | 2024 | XX/XX                | XX/XX   | Henriksb |
 | Novacare jul    | 2024 | 24/24                | 3/600   | Henriksb |
+| Cyberlandslaget 2025 | 2025 | 23/24 | 2/XXX | Henriksb |
 
 
 [CTFTime](https://ctftime.org/team/285939)
